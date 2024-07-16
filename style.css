@@ -81,3 +81,7 @@ a:hover {
     color: rgb(27, 168, 102);
     font-family: 'Helvetica';
 }
+
+table {
+    padding-top: 100px;
+}
