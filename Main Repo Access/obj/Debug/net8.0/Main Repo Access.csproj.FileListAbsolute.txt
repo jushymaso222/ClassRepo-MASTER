@@ -1,0 +1,30 @@
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Main Repo Access\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Main Repo Access\bin\Debug\net8.0\appsettings.json
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Main Repo Access\bin\Debug\net8.0\Main_Repo_Access.staticwebassets.runtime.json
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Main Repo Access\bin\Debug\net8.0\Main_Repo_Access.exe
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Main Repo Access\bin\Debug\net8.0\Main_Repo_Access.deps.json
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Main Repo Access\bin\Debug\net8.0\Main_Repo_Access.runtimeconfig.json
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Main Repo Access\bin\Debug\net8.0\Main_Repo_Access.dll
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Main Repo Access\bin\Debug\net8.0\Main_Repo_Access.pdb
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Main Repo Access\obj\Debug\net8.0\Main Repo Access.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Main Repo Access\obj\Debug\net8.0\Main Repo Access.AssemblyInfoInputs.cache
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Main Repo Access\obj\Debug\net8.0\Main Repo Access.AssemblyInfo.cs
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Main Repo Access\obj\Debug\net8.0\Main Repo Access.csproj.CoreCompileInputs.cache
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Main Repo Access\obj\Debug\net8.0\Main_Repo_Access.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Main Repo Access\obj\Debug\net8.0\Main Repo Access.sourcelink.json
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Main Repo Access\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Main Repo Access\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Main Repo Access\obj\Debug\net8.0\staticwebassets\msbuild.Main_Repo_Access.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Main Repo Access\obj\Debug\net8.0\staticwebassets\msbuild.build.Main_Repo_Access.props
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Main Repo Access\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Main_Repo_Access.props
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Main Repo Access\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Main_Repo_Access.props
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Main Repo Access\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Main Repo Access\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Main Repo Access\obj\Debug\net8.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Main Repo Access\obj\Debug\net8.0\scopedcss\bundle\Main_Repo_Access.styles.css
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Main Repo Access\obj\Debug\net8.0\scopedcss\projectbundle\Main_Repo_Access.bundle.scp.css
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Main Repo Access\obj\Debug\net8.0\Main_Repo_Access.dll
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Main Repo Access\obj\Debug\net8.0\refint\Main_Repo_Access.dll
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Main Repo Access\obj\Debug\net8.0\Main_Repo_Access.pdb
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Main Repo Access\obj\Debug\net8.0\Main Repo Access.genruntimeconfig.cache
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Main Repo Access\obj\Debug\net8.0\ref\Main_Repo_Access.dll

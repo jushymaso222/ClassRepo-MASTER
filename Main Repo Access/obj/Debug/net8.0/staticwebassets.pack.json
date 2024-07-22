@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Main Repo Access\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Main_Repo_Access.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Main_Repo_Access.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Main Repo Access\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Main Repo Access\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Main Repo Access\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Main Repo Access\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Main_Repo_Access.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Main_Repo_Access.props",
+      "PackagePath": "build\\Main_Repo_Access.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Main_Repo_Access.props",
+      "PackagePath": "buildMultiTargeting\\Main_Repo_Access.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Main_Repo_Access.props",
+      "PackagePath": "buildTransitive\\Main_Repo_Access.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week1\\Homework\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{05B5E9F1-FC7D-4A62-9496-6DD24734D4B3}|LiveDemo\\LiveDemo.csproj|c:\\users\\ninja\\onedrive\\documents\\github\\classrepo-master\\q4\\dotnet\\week1\\homework\\livedemo\\content\\calc.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{05B5E9F1-FC7D-4A62-9496-6DD24734D4B3}|LiveDemo\\LiveDemo.csproj|solutionrelative:livedemo\\content\\calc.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05B5E9F1-FC7D-4A62-9496-6DD24734D4B3}|LiveDemo\\LiveDemo.csproj|C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week1\\Homework\\livedemo\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{05B5E9F1-FC7D-4A62-9496-6DD24734D4B3}|LiveDemo\\LiveDemo.csproj|solutionrelative:livedemo\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05B5E9F1-FC7D-4A62-9496-6DD24734D4B3}|LiveDemo\\LiveDemo.csproj|C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week1\\Homework\\livedemo\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{05B5E9F1-FC7D-4A62-9496-6DD24734D4B3}|LiveDemo\\LiveDemo.csproj|solutionrelative:livedemo\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05B5E9F1-FC7D-4A62-9496-6DD24734D4B3}|LiveDemo\\LiveDemo.csproj|c:\\users\\ninja\\onedrive\\documents\\github\\classrepo-master\\q4\\dotnet\\week1\\homework\\livedemo\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05B5E9F1-FC7D-4A62-9496-6DD24734D4B3}|LiveDemo\\LiveDemo.csproj|solutionrelative:livedemo\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "calc.css",
+              "DocumentMoniker": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week1\\Homework\\LiveDemo\\Content\\calc.css",
+              "RelativeDocumentMoniker": "LiveDemo\\Content\\calc.css",
+              "ToolTip": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week1\\Homework\\LiveDemo\\Content\\calc.css",
+              "RelativeToolTip": "LiveDemo\\Content\\calc.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-21T23:20:41.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Site.Master",
+              "DocumentMoniker": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week1\\Homework\\LiveDemo\\Site.Master",
+              "RelativeDocumentMoniker": "LiveDemo\\Site.Master",
+              "ToolTip": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week1\\Homework\\LiveDemo\\Site.Master",
+              "RelativeToolTip": "LiveDemo\\Site.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-15T14:09:20.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Default.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week1\\Homework\\LiveDemo\\Default.aspx.cs",
+              "RelativeDocumentMoniker": "LiveDemo\\Default.aspx.cs",
+              "ToolTip": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week1\\Homework\\LiveDemo\\Default.aspx.cs",
+              "RelativeToolTip": "LiveDemo\\Default.aspx.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAxwCQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T13:16:09.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week1\\Homework\\LiveDemo\\Default.aspx",
+              "RelativeDocumentMoniker": "LiveDemo\\Default.aspx",
+              "ToolTip": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week1\\Homework\\LiveDemo\\Default.aspx",
+              "RelativeToolTip": "LiveDemo\\Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-15T13:14:59.154Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

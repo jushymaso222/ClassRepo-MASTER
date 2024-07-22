@@ -11,7 +11,11 @@ namespace LiveDemo
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (!IsPostBack)
+            {
+                Session["Num1"] = "None";
+                Session["Result"] = 0;
+            }
         }
 
         protected void btnNum_Click(object sender, EventArgs e)
@@ -19,57 +23,135 @@ namespace LiveDemo
             Button temp = (Button)sender;
             textLCD.Text += temp.Text;
         }
-
-        protected void btnPlus_Click(object sender, EventArgs e)
+        protected void btnMEM_Click(object sender, EventArgs e)
         {
-            Session["Num1"] = textLCD.Text;
-            Session["Opperand"] = "+";
+            Button temp = (Button)sender;
+            String mode = temp.Text;
 
-            textLCD.Text = "";
-        }
-
-        protected void btnMinus_Click(object sender, EventArgs e)
-        {
-            Session["Num1"] = textLCD.Text;
-            Session["Opperand"] = "-";
-
-            textLCD.Text = "";
-        }
-
-        protected void btnEquals_Click(object sender, EventArgs e)
-        {
-            Double Num1 = Double.Parse(Session["Num1"].ToString());
-            Double Num2 = Double.Parse(textLCD.Text);
-            String Opperand = Session["Opperand"].ToString();
-            Double Result;
-
-            switch(Opperand)
+            switch(mode)
             {
-                case "+":
-                    Result = Num1 + Num2;
+                case "MS":
+                    //Memory store
+                    Session["Mem"] = textLCD.Text;
+                    textLCD.Text = "";
+                    Session["Num1"] = "None";
                     break;
-                case "-":
-                    Result = Num1 - Num2;
+                case "MR":
+                    //Memory restore
+                    if (Session["Mem"].ToString() != "0")
+                    {
+                        textLCD.Text = Session["Mem"].ToString();
+                    }
                     break;
-                default:
-                    Result = 0;
+                case "MC":
+                    //Memory clear
+                    Session["Mem"] = "0";
                     break;
             }
-
-            textLCD.Text = Result.ToString();
+            labelMem.Text = $"Stored in Memory: {Session["Mem"].ToString()}";
         }
-
-        protected void btnBack_Click(object sender, EventArgs e)
+        protected void btnOperate_Click(object sender, EventArgs e)
         {
-            if (textLCD.Text.Length > 0)
+            Button temp = (Button)sender;
+            String mode = temp.Text;
+            String last = "None";
+
+            Session["Opperand"] = temp.Text;
+            if (Session["Num1"].ToString() != "None")
             {
-                textLCD.Text = textLCD.Text.Remove(textLCD.Text.Length - 1, 1);
+                Double Num1 = Double.Parse(Session["Num1"].ToString());
+                Double Num2 = Double.Parse(textLCD.Text);
+                Double result;
+
+                switch (Session["Opperand"].ToString())
+                {
+                    case "+":
+                        result = Num1 + Num2;
+                        last = "Addition";
+                        break;
+                    case "-":
+                        result = Num1 - Num2;
+                        last = "Subtraction";
+                        break;
+                    case "x":
+                        result = Num1 * Num2;
+                        last = "Multiplication";
+                        break;
+                    case "÷":
+                        if (Num2 != 0)
+                        {
+                            result = Num1 / Num2;
+                            last = "Division";
+                        } else
+                        {
+                            result = 0;
+                            textLCD.Text = "ERR: DIVIDE BY 0";
+                            last = "None";
+                        }
+                        break;
+                    default:
+                        last = "None";
+                        result = 0;
+                        break;
+                }
+
+                Session["Num1"] = result;
+                textLCD.Text = "";
+            } else
+            {
+                if (textLCD.Text != "")
+                {
+                    Session["Num1"] = textLCD.Text;
+                    textLCD.Text = "";
+                    last = "None";
+                }
+            }
+            labelLast.Text = $"Last Operation: {last}";
+        }
+        protected void btnEquals_Click(object sender, EventArgs e)
+        {
+            if ((textLCD.Text != "") && (Session["Num1"].ToString() != "None"))
+            {
+                Double Num1 = Double.Parse(Session["Num1"].ToString());
+                Double Num2 = Double.Parse(textLCD.Text);
+                String Opperand = Session["Opperand"].ToString();
+                String last;
+
+                switch (Opperand)
+                {
+                    case "+":
+                        Session["Result"] = Num1 + Num2;
+                        last = "Addition";
+                        break;
+                    case "-":
+                        Session["Result"] = Num1 - Num2;
+                        last = "Subtraction";
+                        break;
+                    case "x":
+                        Session["Result"] = Num1 * Num2;
+                        last = "Multiplication";
+                        break;
+                    case "÷":
+                        Session["Result"] = Num1 / Num2;
+                        last = "Division";
+                        break;
+                    default:
+                        Session["Result"] = 0;
+                        last = "None";
+                        break;
+                }
+
+                textLCD.Text = Session["Result"].ToString();
+                Session["Num1"] = "None";
+                labelLast.Text = $"Last Operation: {last}";
             }
         }
 
         protected void btnClear_Click(object sender, EventArgs e)
         {
             textLCD.Text = "";
+            Session["Num1"] = "None";
+            Session["Result"] = 0;
         }
 
     }

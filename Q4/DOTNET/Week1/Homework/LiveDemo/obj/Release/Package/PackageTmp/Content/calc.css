@@ -1,0 +1,22 @@
+﻿body {
+}
+
+.aspBtn {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(190, 190, 190);
+    color: black;
+    border: 2px solid rgb(105, 105, 105);
+}
+
+.LCD {
+    height: 50px;
+    width: 213px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(105, 105, 105);
+}
+
+.label {
+    padding-left: 50px;
+}
+
