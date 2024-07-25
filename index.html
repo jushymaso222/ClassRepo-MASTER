@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/default.css">
     <title>Class Repo Web Access</title>
+    <style>
+    </style>
 </head>
 <body>
     <div id="header">
@@ -12,46 +14,12 @@
     </div>
 
     <div id="main">
-        <table id="myTable">
-            <thead>
-              <tr>
-                <th>date</th>
-                <th>file name s</th>
-              </tr>
-            </thead>
-            <tbody id="testBody"></tbody>
-        </table>
-        <script>
-            var files = FileSystem.root
-
-            const items1 = [
-              { date: "10/17/2018", name: "john doe" },
-              { date: "10/18/2018", name: "jane doe" },
-            ];
-            const items2 = [
-              { date: "10/17/2019", name: "john doe" },
-              { date: "10/18/2019", name: "jane doe" },
-            ];
-            function loadTableData(items) {
-              const table = document.getElementById("testBody");
-              items.forEach( item => {
-                let row = table.insertRow();
-                let date = row.insertCell(0);
-                date.innerHTML = item.date;
-                let name = row.insertCell(1);
-                name.innerHTML = item.name;
-              });
-            }
-            loadTableData(items1);
-            loadTableData(items2);
-            loadTableData([]);
-          </script>
-
-
-    </div>
+        <div id="navigation">
+            <button id="backButton" style="display: none;">Back</button>
+        </div>
 
     <div id="footer">
-        <h2>&copy;JMASON | SE111 202420 | HTML & Javascript</h2>
+        <h2>&copy; JMASON | SE111 202420 | HTML & Javascript</h2>
         <a href="#header"><h3>Back to Top</h3></a>
     </div>
 </body>
