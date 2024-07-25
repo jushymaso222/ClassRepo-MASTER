@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(67, 81, 82);
+}
+
+canvas{
+    background-color: rgb(122, 144, 148);
+    border:1px solid rgb(32, 37, 40);
+}
+
+#score {
+    font-size: 30pt;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+#score > div {
+    display: inline;
+}
