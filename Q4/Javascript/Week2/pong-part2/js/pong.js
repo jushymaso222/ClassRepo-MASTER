@@ -9,7 +9,7 @@ var timer = setInterval(main, 1000/60)
 var fy = .97
 
 //Player array
-let player = [];
+let players = [];
 
 //p1 setup
 var p1 = new Box();
@@ -18,7 +18,7 @@ p1.h = 150
 p1.x = 0 + p1.w/2
 
 //Add player to array with the player 1 paddle assigned to it
-player.push(new Player("p1", 0, 0, p1));
+players.push(new Player("p1", 0, 0, p1));
 
 //ball setup
 var ball = new Box();
@@ -34,7 +34,10 @@ p2.h = 150
 p2.x = 780 + p2.w/2
 
 //Add player to array with the player 2 paddle assigned to it
-player.push(new Player("p2", 0, 0, p2));
+players.push(new Player("p2", 0, 0, p2));
+
+//Console log to view the player array
+console.log(players)
 
 function main()
 {
