@@ -1,0 +1,38 @@
+﻿.gameTile {
+    width: 250px;
+    height: 350px;
+    background-color: lightgray;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    margin: 20px;
+    vertical-align: top;
+    position: relative;
+    padding-top: 20px;
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+}
+
+.content {
+    height: calc(100% - 140px); /* Adjust the height calculation as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.buyButton {
+    background-color: lightcoral;
+    color: white;
+    width: calc(100% - 60px); /* Subtracting left and right margins */
+    margin: 0 30px 10px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 10px;
+}
