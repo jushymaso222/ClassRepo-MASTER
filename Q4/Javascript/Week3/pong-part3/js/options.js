@@ -25,16 +25,35 @@ function toggleOptions(e) {
 -----------*/
 
 let fills = document.querySelectorAll(".fill");
+let strokes = document.querySelectorAll(".stroke");
+let Us = document.querySelectorAll(".u");
+
+for (i=0; i < Us.length; i++) {
+    Us[i].addEventListener(`keydown`, (e) => {
+        e.target.nextSibling.innerHTML = e.key;
+        e.target.value = e.key;
+        e.target.blur();
+    })
+    Us[i].addEventListener(`focus`, (e) => {
+        currentState = "pause";
+    })
+}
 
 
-function updateProperties() {
-    console.log("update");
+function updateColors() {
     for (i=0; i < fills.length; i++) {
         console.log(player);
         player[i].pad.fill = fills[i].value;
         fills[i].nextSibling.innerHTML = fills[i].value;
+        player[i].pad.stroke = strokes[i].value;
+        strokes[i].nextSibling.innerHTML = strokes[i].value; 
     }
 }
+
+function updateKeys(e) {
+
+}
+
 
 /*---------
     Program the six key inputs to do the following:
@@ -44,3 +63,7 @@ function updateProperties() {
         .Change the player's key to the value of the input
         .Show the player's key in the output div 
 -----------*/
+
+
+
+
