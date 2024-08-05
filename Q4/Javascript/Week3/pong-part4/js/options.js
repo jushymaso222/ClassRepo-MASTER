@@ -27,6 +27,8 @@ function toggleOptions(e) {
 let fills = document.querySelectorAll(".fill");
 let strokes = document.querySelectorAll(".stroke");
 let Us = document.querySelectorAll(".u");
+let Ds = document.querySelectorAll(".d");
+let Ss = document.querySelectorAll(".s");
 
 for (i=0; i < Us.length; i++) {
     Us[i].addEventListener(`keydown`, (e) => {
@@ -39,9 +41,33 @@ for (i=0; i < Us.length; i++) {
     })
 }
 
+for (i=0; i < Ds.length; i++) {
+    Ds[i].addEventListener(`keydown`, (e) => {
+        e.target.nextSibling.innerHTML = e.key;
+        e.target.value = e.key;
+        e.target.blur();
+    })
+    Ds[i].addEventListener(`focus`, (e) => {
+        currentState = "pause";
+    })
+}
+
+for (i=0; i < Ss.length; i++) {
+    Ss[i].addEventListener(`keydown`, (e) => {
+        e.target.nextSibling.innerHTML = e.key;
+        e.target.value = e.key;
+        e.target.blur();
+    })
+    Ss[i].addEventListener(`focus`, (e) => {
+        currentState = "pause";
+    })
+    
+}
+
+
 function updateProperties() {
+    console.log("update");
     for (i=0; i < fills.length; i++) {
-        console.log(player);
         player[i].pad.fill = fills[i].value;
         fills[i].nextSibling.innerHTML = fills[i].value;
         player[i].pad.stroke = strokes[i].value;
