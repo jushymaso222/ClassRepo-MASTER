@@ -41,6 +41,8 @@ let fs = {
                         "button": new Button(`Week 3`, "changeFolder('Week 3')"),
                         "links": [
                             new Button(`Pong Part 1`, "location.href='Q4/Javascript/Week3/pong'"),
+                            new Button(`Pong Part 2`, "location.href='Q4/Javascript/Week3/pong-part2'"),
+                            new Button(`Pong Part 3`, "location.href='Q4/Javascript/Week3/pong-part3'"),
                         ]
                     },
                     "Week 4": {
