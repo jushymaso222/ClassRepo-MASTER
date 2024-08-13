@@ -11,6 +11,9 @@ class Box
         this.vx = 0
         this.vy = 0
         this.dir = 1;
+        this.type=0;
+        this.target=`undefined`
+        this.force=1;
         return this;
     }
 
@@ -28,13 +31,13 @@ class Box
 
     draw()
     {
-        ctx.save();
-            ctx.translate(this.x, this.y);
-            ctx.fillStyle = this.fill;
-            ctx.strokeStyle = this.stroke;
-            ctx.fillRect(0-this.w/2, 0-this.h/2, this.w, this.h);
-            ctx.strokeRect(0-this.w/2, 0-this.h/2, this.w, this.h);
-        ctx.restore();
+        ctx.save()
+            ctx.translate(this.x, this.y)
+            ctx.fillStyle = this.fill
+            ctx.strokeStyle = this.stroke
+            ctx.fillRect(0-this.w/2, 0-this.h/2, this.w, this.h)
+            ctx.strokeRect(0-this.w/2, 0-this.h/2, this.w, this.h)
+        ctx.restore()
     }
 
     debug()
@@ -56,10 +59,27 @@ class Box
         ctx.restore()
     }
 
-    move()
+    move(_self=this)
     {
-        this.x += this.vx;
-        this.y += this.vy;
+        var types=[]
+        var moveMentType=[this.control, this.track]
+        moveMentType[_self.type](_self);
+       
+    }
+    control(_self)
+    {
+        _self.x += _self.vx;
+        _self.y += _self.vy;
+    }
+ 
+    track(_self)
+    {
+        var dx = _self.target.x-_self.x;
+        var dy = _self.target.y-_self.y;
+        var dist = Math.sqrt(dy+dy*dx*dx);
+        var rad = Math.atan2(dy,dx);
+        _self.vy += Math.sin(rad)*_self.force;
+        _self.y += _self.vy;
     }
 
     left(){return this.x - this.w/2}

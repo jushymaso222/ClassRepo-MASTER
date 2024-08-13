@@ -35,6 +35,8 @@ function init()
     //pad 1 and 2
     o[0] = new Box().setProps(player[0]).setProps({x:10, dir:1});
     o[1] = new Box().setProps(player[1]).setProps({x:c.width-10, dir:-1});
+    o[1].type=1;
+    
     //ball
     o[2] = new Box().setProps({w:20, h:20, vx:-2, vy:0, fill:`rgb(255,255,255)`});
     //goals 1 and 2
@@ -49,6 +51,7 @@ function init()
     goals = [o[3], o[4]]
     scoreBoard = document.querySelectorAll(`#score div p`);
     currentState = `game`;
+    o[1].target = ball
     //timer to make the game run at 60fps
     clearTimeout(timer);
     timer = setInterval(main, 1000/60);
@@ -72,7 +75,7 @@ states[`game`] = function()
     //ball movement
     ball.move();
 
-    if(ball.y < sides.top + ball.h/2)
+   if(ball.y < sides.top + ball.h/2)
     {
         ball.y = sides.top + ball.h/2;
         ball.vy = -ball.vy;

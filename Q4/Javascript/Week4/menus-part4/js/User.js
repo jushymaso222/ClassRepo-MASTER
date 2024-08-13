@@ -3,6 +3,7 @@ class User
 
     constructor()
     {
+        this.name=`Player 1`;
         this.score=0;
         this.highScore=0;
         this.pad;
