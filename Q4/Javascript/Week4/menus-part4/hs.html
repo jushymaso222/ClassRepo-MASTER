@@ -40,7 +40,14 @@
         menus.appendChild(scoreDiv);
 
         let message = "";
-        highScoreList.forEach((currentValue) => message += currentValue.name + " ---- " + currentValue.score + "<br>" );
+        // highScoreList.forEach((currentValue) => message += currentValue.name + " ---- " + currentValue.score + "<br>" );
+        for (i=0; i < highScoreList.length; i++) {
+            let temp = highScoreList[i]
+            for (let k in temp) {
+                message += temp[k] + " ";
+            }
+            message += "<br>"
+        }
         scoreDiv.innerHTML = message;
 
         
