@@ -49,7 +49,12 @@ let fs = {
                     },
                     "Week 4": {
                         "button": new Button(`Week 4`, "changeFolder('Week 4')"),
-                        "links": []
+                        "links": [
+                            new Button(`Menus Part 1`, "location.href='Q4/Javascript/Week4/menus'"),
+                            new Button(`Menus Part 2`, "location.href='Q4/Javascript/Week4/menus-part2'"),
+                            new Button(`Menus Part 3`, "location.href='Q4/Javascript/Week4/menus-part3'"),
+                            new Button(`Menus Part 4`, "location.href='Q4/Javascript/Week4/menus-part4'"),
+                        ]
                     },
                     "Week 5": {
                         "button": new Button(`Week 5`, "changeFolder('Week 5')"),
