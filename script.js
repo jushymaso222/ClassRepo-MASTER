@@ -43,6 +43,8 @@ let fs = {
                             new Button(`Pong Part 1`, "location.href='Q4/Javascript/Week3/pong'"),
                             new Button(`Pong Part 2`, "location.href='Q4/Javascript/Week3/pong-part2'"),
                             new Button(`Pong Part 3`, "location.href='Q4/Javascript/Week3/pong-part3'"),
+                            new Button(`Pong Part 4`, "location.href='Q4/Javascript/Week3/pong-part4'"),
+                            new Button(`Pong Part 5`, "location.href='Q4/Javascript/Week3/pong-part5'")
                         ]
                     },
                     "Week 4": {

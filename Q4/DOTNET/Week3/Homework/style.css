@@ -1,0 +1,77 @@
+﻿.gameTile {
+    width: 250px;
+    height: 350px;
+    background-color: lightgray;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    margin: 20px;
+    vertical-align: top;
+    position: relative;
+    padding-top: 20px;
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+}
+
+.content {
+    height: calc(100% - 140px); /* Adjust the height calculation as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.buyButton {
+    background-color: lightcoral;
+    color: white;
+    width: calc(100% - 60px); /* Subtracting left and right margins */
+    margin: 0 30px 10px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 10px;
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 66.6%; /* Two-thirds of the screen width */
+    margin: 0 auto; /* Center the search bar on the page */
+}
+
+.searchBox {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.searchBtn {
+    padding: 10px;
+    background-color: #007BFF;
+    border: 1px solid #007BFF;
+    border-radius: 0 5px 5px 0;
+    color: white;
+    cursor: pointer;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+
+.searchBtn:hover {
+    background-color: #0056b3;
+}
+
+/* Optional: To align the textbox and button side by side */
+.searchBox,
+.searchBtn {
+    display: inline-block;
+    vertical-align: middle;
+}
