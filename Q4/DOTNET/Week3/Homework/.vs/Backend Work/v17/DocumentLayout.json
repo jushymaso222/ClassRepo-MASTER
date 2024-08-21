@@ -3,7 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week3\\Homework\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6A842D0C-0D95-4A5D-BE87-144ED651C135}|Backend Work.csproj|c:\\users\\ninja\\onedrive\\documents\\github\\classrepo-master\\q4\\dotnet\\week3\\homework\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A842D0C-0D95-4A5D-BE87-144ED651C135}|Backend Work.csproj|c:\\users\\ninja\\onedrive\\documents\\github\\classrepo-master\\q4\\dotnet\\week3\\homework\\gamepage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A842D0C-0D95-4A5D-BE87-144ED651C135}|Backend Work.csproj|solutionrelative:gamepage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A842D0C-0D95-4A5D-BE87-144ED651C135}|Backend Work.csproj|C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week3\\Homework\\backend\\managerecords.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{6A842D0C-0D95-4A5D-BE87-144ED651C135}|Backend Work.csproj|solutionrelative:backend\\managerecords.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A842D0C-0D95-4A5D-BE87-144ED651C135}|Backend Work.csproj|C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week3\\Homework\\gamepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{6A842D0C-0D95-4A5D-BE87-144ED651C135}|Backend Work.csproj|solutionrelative:gamepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A842D0C-0D95-4A5D-BE87-144ED651C135}|Backend Work.csproj|C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week3\\Homework\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A842D0C-0D95-4A5D-BE87-144ED651C135}|Backend Work.csproj|solutionrelative:default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,20 +23,24 @@
       "RelativeMoniker": "D:0:0:{6A842D0C-0D95-4A5D-BE87-144ED651C135}|Backend Work.csproj|solutionrelative:default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A842D0C-0D95-4A5D-BE87-144ED651C135}|Backend Work.csproj|c:\\users\\ninja\\onedrive\\documents\\github\\classrepo-master\\q4\\dotnet\\week3\\homework\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{6A842D0C-0D95-4A5D-BE87-144ED651C135}|Backend Work.csproj|solutionrelative:style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{6A842D0C-0D95-4A5D-BE87-144ED651C135}|Backend Work.csproj|C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week3\\Homework\\backend\\addgame.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A842D0C-0D95-4A5D-BE87-144ED651C135}|Backend Work.csproj|solutionrelative:backend\\addgame.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A842D0C-0D95-4A5D-BE87-144ED651C135}|Backend Work.csproj|C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week3\\Homework\\backend\\addgame.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{6A842D0C-0D95-4A5D-BE87-144ED651C135}|Backend Work.csproj|solutionrelative:backend\\addgame.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A842D0C-0D95-4A5D-BE87-144ED651C135}|Backend Work.csproj|C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week3\\Homework\\backend\\controlpanel.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{6A842D0C-0D95-4A5D-BE87-144ED651C135}|Backend Work.csproj|solutionrelative:backend\\controlpanel.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6A842D0C-0D95-4A5D-BE87-144ED651C135}|Backend Work.csproj|C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week3\\Homework\\modules\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A842D0C-0D95-4A5D-BE87-144ED651C135}|Backend Work.csproj|solutionrelative:modules\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A842D0C-0D95-4A5D-BE87-144ED651C135}|Backend Work.csproj|C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week3\\Homework\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{6A842D0C-0D95-4A5D-BE87-144ED651C135}|Backend Work.csproj|solutionrelative:site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A842D0C-0D95-4A5D-BE87-144ED651C135}|Backend Work.csproj|c:\\users\\ninja\\onedrive\\documents\\github\\classrepo-master\\q4\\dotnet\\week3\\homework\\gametile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A842D0C-0D95-4A5D-BE87-144ED651C135}|Backend Work.csproj|solutionrelative:gametile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6A842D0C-0D95-4A5D-BE87-144ED651C135}|Backend Work.csproj|C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week3\\Homework\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6A842D0C-0D95-4A5D-BE87-144ED651C135}|Backend Work.csproj|solutionrelative:style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +54,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "style.css",
               "DocumentMoniker": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week3\\Homework\\style.css",
               "RelativeDocumentMoniker": "style.css",
@@ -47,8 +63,7 @@
               "ViewState": "AQIAACUAAAAAAAAAAAAcwDUAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-08-08T15:43:40.515Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -61,45 +76,91 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "GamePage.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week3\\Homework\\GamePage.aspx.cs",
+              "RelativeDocumentMoniker": "GamePage.aspx.cs",
+              "ToolTip": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week3\\Homework\\GamePage.aspx.cs",
+              "RelativeToolTip": "GamePage.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T23:24:17.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GamePage.aspx",
+              "DocumentMoniker": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week3\\Homework\\GamePage.aspx",
+              "RelativeDocumentMoniker": "GamePage.aspx",
+              "ToolTip": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week3\\Homework\\GamePage.aspx",
+              "RelativeToolTip": "GamePage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-19T23:23:46.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ManageRecords.aspx",
+              "DocumentMoniker": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week3\\Homework\\Backend\\ManageRecords.aspx",
+              "RelativeDocumentMoniker": "Backend\\ManageRecords.aspx",
+              "ToolTip": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week3\\Homework\\Backend\\ManageRecords.aspx",
+              "RelativeToolTip": "Backend\\ManageRecords.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-19T21:38:28.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddGame.aspx",
+              "DocumentMoniker": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week3\\Homework\\Backend\\AddGame.aspx",
+              "RelativeDocumentMoniker": "Backend\\AddGame.aspx",
+              "ToolTip": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week3\\Homework\\Backend\\AddGame.aspx",
+              "RelativeToolTip": "Backend\\AddGame.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-19T04:03:24.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Default.aspx.cs",
               "DocumentMoniker": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week3\\Homework\\Default.aspx.cs",
               "RelativeDocumentMoniker": "Default.aspx.cs",
               "ToolTip": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week3\\Homework\\Default.aspx.cs",
               "RelativeToolTip": "Default.aspx.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAqwDUAAAAsAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAqwBgAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T15:27:27.246Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T15:27:27.246Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "GameTile.cs",
-              "DocumentMoniker": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week3\\Homework\\GameTile.cs",
-              "RelativeDocumentMoniker": "GameTile.cs",
-              "ToolTip": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week3\\Homework\\GameTile.cs",
-              "RelativeToolTip": "GameTile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAATAAAA",
+              "Title": "AddGame.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week3\\Homework\\Backend\\AddGame.aspx.cs",
+              "RelativeDocumentMoniker": "Backend\\AddGame.aspx.cs",
+              "ToolTip": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week3\\Homework\\Backend\\AddGame.aspx.cs",
+              "RelativeToolTip": "Backend\\AddGame.aspx.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwCgAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T14:03:16.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-19T04:17:43.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ControlPanel.aspx",
+              "DocumentMoniker": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week3\\Homework\\Backend\\ControlPanel.aspx",
+              "RelativeDocumentMoniker": "Backend\\ControlPanel.aspx",
+              "ToolTip": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week3\\Homework\\Backend\\ControlPanel.aspx",
+              "RelativeToolTip": "Backend\\ControlPanel.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-19T21:48:44.238Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Site.Master",
-              "DocumentMoniker": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week3\\Homework\\Site.Master",
-              "RelativeDocumentMoniker": "Site.Master",
-              "ToolTip": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week3\\Homework\\Site.Master",
-              "RelativeToolTip": "Site.Master",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-08-05T13:59:12.984Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Default.aspx",
               "DocumentMoniker": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week3\\Homework\\Default.aspx",
               "RelativeDocumentMoniker": "Default.aspx",
@@ -107,21 +168,19 @@
               "RelativeToolTip": "Default.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-08-05T13:58:09.608Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-05T13:58:09.608Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "Game.cs",
               "DocumentMoniker": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week3\\Homework\\Modules\\Game.cs",
               "RelativeDocumentMoniker": "Modules\\Game.cs",
               "ToolTip": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week3\\Homework\\Modules\\Game.cs",
               "RelativeToolTip": "Modules\\Game.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAABOAAAA",
+              "ViewState": "AQIAAKEAAAAAAAAAAAAIwMsAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T13:50:53.585Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-05T13:50:53.585Z"
             }
           ]
         }

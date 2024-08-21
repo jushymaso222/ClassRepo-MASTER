@@ -15,11 +15,24 @@
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
+    <script src="scripts/jquery-3.7.1.min.js"></script>
+    <script src="scripts/jquery-ui.js"></script>
+    <link href="scripts/jquery-ui.css" rel="stylesheet" />
+    <script>
+    $(function() {
+        $('.datepicker').datepicker({
+            dateFormat: 'mm/dd/yyyy',
+            changeMonth: true,
+            changeYear: true,
+            yearRange: '1950:2100'
+        });
+    });
+    </script>
 
 </head>
 <body>
     <form runat="server">
-        <asp:ScriptManager runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server">
             <Scripts>
                 <%--To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>
                 <%--Framework Scripts--%>

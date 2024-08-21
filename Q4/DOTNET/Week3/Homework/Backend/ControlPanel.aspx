@@ -12,6 +12,9 @@
                 <td><a href="AddGame.aspx" runat="server">Add a Game</a></td>
             </tr>
             <tr>
+                <td><a href="ManageRecords.aspx" runat="server">Find Games</a></td>
+            </tr>
+            <tr>
                 <td>
                     <asp:Button ID="btnLogout" runat="server" Text="Logout" OnClick="btnLogout_Click" />
                 </td>

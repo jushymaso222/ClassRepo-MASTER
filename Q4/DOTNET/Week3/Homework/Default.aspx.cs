@@ -27,14 +27,26 @@ namespace Backend_Work
                     {
                         strPrice += ".00";
                     }
-                    games.Add(new GameTile(newData.Tables[0].Rows[i]["Title"].ToString(), newData.Tables[0].Rows[i]["Img"].ToString(), newData.Tables[0].Rows[i]["ShortDesc"].ToString(), $"${strPrice}"));
+                    GameTile tempG = new GameTile(newData.Tables[0].Rows[i]["Title"].ToString(), newData.Tables[0].Rows[i]["ShortDesc"].ToString(), $"${strPrice}");
+                    if (newData.Tables[0].Rows[i]["Img"].ToString() != "" && newData.Tables[0].Rows[i]["Img"].ToString() != null)
+                    {
+                        tempG.img = "/Games/" + newData.Tables[0].Rows[i]["Img"].ToString();
+                    }
+                    tempG.ID = Int32.Parse(newData.Tables[0].Rows[i]["ID"].ToString());
+                    games.Add(tempG);
                 }
                 /*games.Add(new GameTile("Minecraft", "minecraft.png", "A voxel based sandbox game.", "$30.00"));
                 games.Add(new GameTile("Factorio", "factorio.png", "A top-down factory building game.", "$20.00"));
                 games.Add(new GameTile("7 Days to Die", "7days.png", "An expansive zombie survival game.", "$40.00"));
                 games.Add(new GameTile("Call of Duty: Black Ops 3", "bo3.png", "A combat game with zombies.", "$60.00"));
                 games.Add(new GameTile("Have a Nice Death", "hand.png", "A side-scrolling rogue-lite.", "$15.00"));*/
+                RenderStore();
             }
+            
+        }
+
+        public void RenderStore()
+        {
             Session["DefaultInstance"] = this;
 
             String template;
@@ -43,7 +55,7 @@ namespace Backend_Work
                 String gameTiles = "<div>";
                 foreach (GameTile game in games)
                 {
-                    template = $"<div class=\"gameTile\"> <img class=\"icon\" src = \"{game.img}\" alt=\"Icon for {game.name}\" /> <div class=\"content\"> <h2>{game.name}</h2> <p>{game.desc}</p> <h3>{game.price}</h3> </div> <h3 class=\"buyButton\">Buy Now</h3> </div>";
+                    template = $"<div class=\"gameTile\"> <img class=\"icon\" src = \"{game.img}\" alt=\"Icon for {game.name}\" /> <div class=\"content\"> <h2>{game.name}</h2> <p>{game.desc}</p> <h3>{game.price}</h3> </div> <a href=\"/GamePage.aspx?ID={game.ID}\"><h3 class=\"buyButton\">More Details</h3><a> </div>";
                     gameTiles += template;
                 }
                 gameTiles += "</div>";
@@ -69,8 +81,14 @@ namespace Backend_Work
                 {
                     strPrice += ".00";
                 }
-                games.Add(new GameTile(newData.Tables[0].Rows[i]["Title"].ToString(), newData.Tables[0].Rows[i]["Img"].ToString(), newData.Tables[0].Rows[i]["ShortDesc"].ToString(), $"${strPrice}"));
+                GameTile tempG = new GameTile(newData.Tables[0].Rows[i]["Title"].ToString(), newData.Tables[0].Rows[i]["ShortDesc"].ToString(),$"${strPrice}");
+                if (newData.Tables[0].Rows[i]["Img"].ToString() != "" && newData.Tables[0].Rows[i]["Img"].ToString() != null)
+                {
+                    tempG.img = "/Games/" + newData.Tables[0].Rows[i]["Img"].ToString();
+                }
+                games.Add(tempG);
             }
+            RenderStore();
         }
     }
 }

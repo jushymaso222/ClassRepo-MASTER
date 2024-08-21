@@ -11,6 +11,10 @@
       "RelativeMoniker": "D:0:0:{F6457E63-2051-4528-A846-9787BFBD2E64}|SE256_MasterPages.csproj|solutionrelative:backend\\ebookmgr.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F6457E63-2051-4528-A846-9787BFBD2E64}|SE256_MasterPages.csproj|C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week4\\LiveDemo\\SE256_MasterPages\\app_code\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6457E63-2051-4528-A846-9787BFBD2E64}|SE256_MasterPages.csproj|solutionrelative:app_code\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F6457E63-2051-4528-A846-9787BFBD2E64}|SE256_MasterPages.csproj|C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week4\\LiveDemo\\SE256_MasterPages\\app_code\\ebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6457E63-2051-4528-A846-9787BFBD2E64}|SE256_MasterPages.csproj|solutionrelative:app_code\\ebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,16 +23,12 @@
       "RelativeMoniker": "D:0:0:{F6457E63-2051-4528-A846-9787BFBD2E64}|SE256_MasterPages.csproj|solutionrelative:backend\\ebooksearch.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6457E63-2051-4528-A846-9787BFBD2E64}|SE256_MasterPages.csproj|C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week4\\LiveDemo\\SE256_MasterPages\\backend\\ebooksearch.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6457E63-2051-4528-A846-9787BFBD2E64}|SE256_MasterPages.csproj|solutionrelative:backend\\ebooksearch.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F6457E63-2051-4528-A846-9787BFBD2E64}|SE256_MasterPages.csproj|C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week4\\LiveDemo\\SE256_MasterPages\\backend\\controlpanel.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{F6457E63-2051-4528-A846-9787BFBD2E64}|SE256_MasterPages.csproj|solutionrelative:backend\\controlpanel.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6457E63-2051-4528-A846-9787BFBD2E64}|SE256_MasterPages.csproj|C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week4\\LiveDemo\\SE256_MasterPages\\app_code\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6457E63-2051-4528-A846-9787BFBD2E64}|SE256_MasterPages.csproj|solutionrelative:app_code\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F6457E63-2051-4528-A846-9787BFBD2E64}|SE256_MasterPages.csproj|C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week4\\LiveDemo\\SE256_MasterPages\\backend\\ebooksearch.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6457E63-2051-4528-A846-9787BFBD2E64}|SE256_MasterPages.csproj|solutionrelative:backend\\ebooksearch.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F6457E63-2051-4528-A846-9787BFBD2E64}|SE256_MasterPages.csproj|C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week4\\LiveDemo\\SE256_MasterPages\\backend\\ebookmgr.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -82,24 +82,23 @@
               "RelativeToolTip": "Backend\\ControlPanel.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-08-05T13:17:50.605Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-05T13:17:50.605Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "EBookSearch.aspx.cs",
               "DocumentMoniker": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week4\\LiveDemo\\SE256_MasterPages\\Backend\\EBookSearch.aspx.cs",
               "RelativeDocumentMoniker": "Backend\\EBookSearch.aspx.cs",
               "ToolTip": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week4\\LiveDemo\\SE256_MasterPages\\Backend\\EBookSearch.aspx.cs",
               "RelativeToolTip": "Backend\\EBookSearch.aspx.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwDYAAAAqAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABsAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-05T12:36:21.84Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "EBookSearch.aspx",
               "DocumentMoniker": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week4\\LiveDemo\\SE256_MasterPages\\Backend\\EBookSearch.aspx",
               "RelativeDocumentMoniker": "Backend\\EBookSearch.aspx",
@@ -129,32 +128,32 @@
               "RelativeDocumentMoniker": "Backend\\EbookMgr.aspx.cs",
               "ToolTip": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week4\\LiveDemo\\SE256_MasterPages\\Backend\\EbookMgr.aspx.cs",
               "RelativeToolTip": "Backend\\EbookMgr.aspx.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAADcAAAAqAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwCEAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-29T13:06:52.955Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week4\\LiveDemo\\SE256_MasterPages\\App_Code\\Book.cs",
               "RelativeDocumentMoniker": "App_Code\\Book.cs",
               "ToolTip": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week4\\LiveDemo\\SE256_MasterPages\\App_Code\\Book.cs",
               "RelativeToolTip": "App_Code\\Book.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABwAAAARAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAAAYwBwAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-29T12:09:14.485Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "EBook.cs",
               "DocumentMoniker": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week4\\LiveDemo\\SE256_MasterPages\\App_Code\\EBook.cs",
               "RelativeDocumentMoniker": "App_Code\\EBook.cs",
               "ToolTip": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week4\\LiveDemo\\SE256_MasterPages\\App_Code\\EBook.cs",
               "RelativeToolTip": "App_Code\\EBook.cs",
-              "ViewState": "AQIAAJkAAAAAAAAAAAAcwMgAAAAXAAAA",
+              "ViewState": "AQIAALMAAAAAAAAAAAAkwMsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-29T13:40:32.298Z"
             },
@@ -214,10 +213,8 @@
               "RelativeDocumentMoniker": "Site.Master",
               "ToolTip": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week4\\LiveDemo\\SE256_MasterPages\\Site.Master",
               "RelativeToolTip": "Site.Master",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-07-21T14:33:03.087Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-21T14:33:03.087Z"
             },
             {
               "$type": "Document",

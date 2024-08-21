@@ -12,13 +12,13 @@ namespace Backend_Work
         public String desc;
         public String img;
         public String price;
+        public int ID;
 
-        public GameTile(String gameName, String gameImage, String gameDescription, String gamePrice)
+        public GameTile(String gameName, String gameDescription, String gamePrice, String gameImage = "noImage.png")
         {
             name = gameName;
             desc = gameDescription;
             img = "/Games/"+gameImage;
-            Console.WriteLine("~/Games/" + gameImage);
             price = gamePrice;
         }
     }
