@@ -80,8 +80,8 @@ def previous(event):
 #=======================================================================#
 
 filters = {
-    "Black": gR(race="black"),
-    "White": gR(race="white"),
+    "Black": gR(race="black", perc=100),
+    "White": gR(race="white", perc=100),
 }
 
 graph = "histogram" #values can be histogram, bar, or scatter
