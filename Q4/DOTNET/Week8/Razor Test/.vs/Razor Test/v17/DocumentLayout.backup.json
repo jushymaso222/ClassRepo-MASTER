@@ -1,0 +1,194 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ninja\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week8\\Razor Test\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|c:\\users\\ninja\\documents\\github\\classrepo-master\\q4\\dotnet\\week8\\razor test\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|c:\\users\\ninja\\documents\\github\\classrepo-master\\q4\\dotnet\\week8\\razor test\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|c:\\users\\ninja\\documents\\github\\classrepo-master\\q4\\dotnet\\week8\\razor test\\models\\troubleticketdataaccesslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|solutionrelative:models\\troubleticketdataaccesslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|c:\\users\\ninja\\documents\\github\\classrepo-master\\q4\\dotnet\\week8\\razor test\\models\\troubleticketmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|solutionrelative:models\\troubleticketmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|c:\\users\\ninja\\documents\\github\\classrepo-master\\q4\\dotnet\\week8\\razor test\\pages\\addticket.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|solutionrelative:pages\\addticket.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|c:\\users\\ninja\\documents\\github\\classrepo-master\\q4\\dotnet\\week8\\razor test\\pages\\addticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|solutionrelative:pages\\addticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|c:\\users\\ninja\\documents\\github\\classrepo-master\\q4\\dotnet\\week8\\razor test\\models\\validationlib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|solutionrelative:models\\validationlib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|c:\\users\\ninja\\documents\\github\\classrepo-master\\q4\\dotnet\\week8\\razor test\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|c:\\users\\ninja\\documents\\github\\classrepo-master\\q4\\dotnet\\week8\\razor test\\razor test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|solutionrelative:razor test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|c:\\users\\ninja\\documents\\github\\classrepo-master\\q4\\dotnet\\week8\\razor test\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TroubleTicketDataAccessLayer.cs",
+              "DocumentMoniker": "C:\\Users\\ninja\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week8\\Razor Test\\Models\\TroubleTicketDataAccessLayer.cs",
+              "RelativeDocumentMoniker": "Models\\TroubleTicketDataAccessLayer.cs",
+              "ToolTip": "C:\\Users\\ninja\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week8\\Razor Test\\Models\\TroubleTicketDataAccessLayer.cs*",
+              "RelativeToolTip": "Models\\TroubleTicketDataAccessLayer.cs*",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAwFoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T07:12:47.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ninja\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week8\\Razor Test\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\ninja\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week8\\Razor Test\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-13T07:09:20.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ValidationLib.cs",
+              "DocumentMoniker": "C:\\Users\\ninja\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week8\\Razor Test\\Models\\ValidationLib.cs",
+              "RelativeDocumentMoniker": "Models\\ValidationLib.cs",
+              "ToolTip": "C:\\Users\\ninja\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week8\\Razor Test\\Models\\ValidationLib.cs",
+              "RelativeToolTip": "Models\\ValidationLib.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T06:20:07.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddTicket.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ninja\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week8\\Razor Test\\Pages\\AddTicket.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\AddTicket.cshtml.cs",
+              "ToolTip": "C:\\Users\\ninja\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week8\\Razor Test\\Pages\\AddTicket.cshtml.cs",
+              "RelativeToolTip": "Pages\\AddTicket.cshtml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T20:11:04.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddTicket.cshtml",
+              "DocumentMoniker": "C:\\Users\\ninja\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week8\\Razor Test\\Pages\\AddTicket.cshtml",
+              "RelativeDocumentMoniker": "Pages\\AddTicket.cshtml",
+              "ToolTip": "C:\\Users\\ninja\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week8\\Razor Test\\Pages\\AddTicket.cshtml",
+              "RelativeToolTip": "Pages\\AddTicket.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-29T20:09:43.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TroubleTicketModel.cs",
+              "DocumentMoniker": "C:\\Users\\ninja\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week8\\Razor Test\\Models\\TroubleTicketModel.cs",
+              "RelativeDocumentMoniker": "Models\\TroubleTicketModel.cs",
+              "ToolTip": "C:\\Users\\ninja\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week8\\Razor Test\\Models\\TroubleTicketModel.cs",
+              "RelativeToolTip": "Models\\TroubleTicketModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T20:06:08.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Razor Test.csproj",
+              "DocumentMoniker": "C:\\Users\\ninja\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week8\\Razor Test\\Razor Test.csproj",
+              "RelativeDocumentMoniker": "Razor Test.csproj",
+              "ToolTip": "C:\\Users\\ninja\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week8\\Razor Test\\Razor Test.csproj",
+              "RelativeToolTip": "Razor Test.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-29T20:05:26.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ninja\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week8\\Razor Test\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ninja\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week8\\Razor Test\\Pages\\Index.cshtml*",
+              "RelativeToolTip": "Pages\\Index.cshtml*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-29T20:01:59.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ninja\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week8\\Razor Test\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\ninja\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week8\\Razor Test\\Pages\\Index.cshtml.cs*",
+              "RelativeToolTip": "Pages\\Index.cshtml.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T20:00:41.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ninja\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week8\\Razor Test\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ninja\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week8\\Razor Test\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBkAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-29T19:54:32.694Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

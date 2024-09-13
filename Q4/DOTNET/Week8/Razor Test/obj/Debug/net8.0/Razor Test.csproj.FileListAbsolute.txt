@@ -1,0 +1,132 @@
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\bin\Debug\net8.0\appsettings.json
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\bin\Debug\net8.0\Razor Test.staticwebassets.runtime.json
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\bin\Debug\net8.0\Razor Test.exe
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\bin\Debug\net8.0\Razor Test.deps.json
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\bin\Debug\net8.0\Razor Test.runtimeconfig.json
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\bin\Debug\net8.0\Razor Test.dll
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\bin\Debug\net8.0\Razor Test.pdb
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\obj\Debug\net8.0\Razor Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\obj\Debug\net8.0\Razor Test.AssemblyInfoInputs.cache
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\obj\Debug\net8.0\Razor Test.AssemblyInfo.cs
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\obj\Debug\net8.0\Razor Test.csproj.CoreCompileInputs.cache
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\obj\Debug\net8.0\Razor Test.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\obj\Debug\net8.0\Razor Test.RazorAssemblyInfo.cache
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\obj\Debug\net8.0\Razor Test.RazorAssemblyInfo.cs
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\obj\Debug\net8.0\Razor Test.sourcelink.json
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\obj\Debug\net8.0\staticwebassets\msbuild.Razor Test.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\obj\Debug\net8.0\staticwebassets\msbuild.build.Razor Test.props
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Razor Test.props
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Razor Test.props
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\obj\Debug\net8.0\scopedcss\bundle\Razor Test.styles.css
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\obj\Debug\net8.0\scopedcss\projectbundle\Razor Test.bundle.scp.css
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\obj\Debug\net8.0\Razor Test.dll
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\obj\Debug\net8.0\refint\Razor Test.dll
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\obj\Debug\net8.0\Razor Test.pdb
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\obj\Debug\net8.0\Razor Test.genruntimeconfig.cache
+C:\Users\ninja\OneDrive\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\obj\Debug\net8.0\ref\Razor Test.dll
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\bin\Debug\net8.0\appsettings.json
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\bin\Debug\net8.0\Razor Test.staticwebassets.runtime.json
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\bin\Debug\net8.0\Razor Test.exe
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\bin\Debug\net8.0\Razor Test.deps.json
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\bin\Debug\net8.0\Razor Test.runtimeconfig.json
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\bin\Debug\net8.0\Razor Test.dll
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\bin\Debug\net8.0\Razor Test.pdb
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\obj\Debug\net8.0\Razor Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\obj\Debug\net8.0\Razor Test.AssemblyInfoInputs.cache
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\obj\Debug\net8.0\Razor Test.AssemblyInfo.cs
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\obj\Debug\net8.0\Razor Test.csproj.CoreCompileInputs.cache
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\obj\Debug\net8.0\Razor Test.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\obj\Debug\net8.0\Razor Test.RazorAssemblyInfo.cache
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\obj\Debug\net8.0\Razor Test.RazorAssemblyInfo.cs
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\obj\Debug\net8.0\Razor Test.sourcelink.json
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\obj\Debug\net8.0\staticwebassets\msbuild.Razor Test.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\obj\Debug\net8.0\staticwebassets\msbuild.build.Razor Test.props
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Razor Test.props
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Razor Test.props
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\obj\Debug\net8.0\scopedcss\bundle\Razor Test.styles.css
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\obj\Debug\net8.0\scopedcss\projectbundle\Razor Test.bundle.scp.css
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\obj\Debug\net8.0\Razor Test.dll
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\obj\Debug\net8.0\refint\Razor Test.dll
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\obj\Debug\net8.0\Razor Test.pdb
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\obj\Debug\net8.0\Razor Test.genruntimeconfig.cache
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week6\Razor Test\obj\Debug\net8.0\ref\Razor Test.dll
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week7\Razor Test\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week7\Razor Test\bin\Debug\net8.0\appsettings.json
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week7\Razor Test\bin\Debug\net8.0\Razor Test.staticwebassets.runtime.json
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week7\Razor Test\bin\Debug\net8.0\Razor Test.exe
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week7\Razor Test\bin\Debug\net8.0\Razor Test.deps.json
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week7\Razor Test\bin\Debug\net8.0\Razor Test.runtimeconfig.json
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week7\Razor Test\bin\Debug\net8.0\Razor Test.dll
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week7\Razor Test\bin\Debug\net8.0\Razor Test.pdb
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week7\Razor Test\obj\Debug\net8.0\Razor Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week7\Razor Test\obj\Debug\net8.0\Razor Test.AssemblyInfoInputs.cache
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week7\Razor Test\obj\Debug\net8.0\Razor Test.AssemblyInfo.cs
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week7\Razor Test\obj\Debug\net8.0\Razor Test.csproj.CoreCompileInputs.cache
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week7\Razor Test\obj\Debug\net8.0\Razor Test.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week7\Razor Test\obj\Debug\net8.0\Razor Test.RazorAssemblyInfo.cache
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week7\Razor Test\obj\Debug\net8.0\Razor Test.RazorAssemblyInfo.cs
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week7\Razor Test\obj\Debug\net8.0\Razor Test.sourcelink.json
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week7\Razor Test\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week7\Razor Test\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week7\Razor Test\obj\Debug\net8.0\staticwebassets\msbuild.Razor Test.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week7\Razor Test\obj\Debug\net8.0\staticwebassets\msbuild.build.Razor Test.props
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week7\Razor Test\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Razor Test.props
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week7\Razor Test\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Razor Test.props
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week7\Razor Test\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week7\Razor Test\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week7\Razor Test\obj\Debug\net8.0\scopedcss\bundle\Razor Test.styles.css
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week7\Razor Test\obj\Debug\net8.0\scopedcss\projectbundle\Razor Test.bundle.scp.css
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week7\Razor Test\obj\Debug\net8.0\Razor Test.dll
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week7\Razor Test\obj\Debug\net8.0\refint\Razor Test.dll
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week7\Razor Test\obj\Debug\net8.0\Razor Test.pdb
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week7\Razor Test\obj\Debug\net8.0\Razor Test.genruntimeconfig.cache
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week7\Razor Test\obj\Debug\net8.0\ref\Razor Test.dll
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week8\Razor Test\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week8\Razor Test\bin\Debug\net8.0\appsettings.json
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week8\Razor Test\bin\Debug\net8.0\Razor Test.staticwebassets.runtime.json
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week8\Razor Test\bin\Debug\net8.0\Razor Test.exe
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week8\Razor Test\bin\Debug\net8.0\Razor Test.deps.json
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week8\Razor Test\bin\Debug\net8.0\Razor Test.runtimeconfig.json
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week8\Razor Test\bin\Debug\net8.0\Razor Test.dll
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week8\Razor Test\bin\Debug\net8.0\Razor Test.pdb
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week8\Razor Test\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week8\Razor Test\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week8\Razor Test\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week8\Razor Test\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week8\Razor Test\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week8\Razor Test\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week8\Razor Test\obj\Debug\net8.0\Razor Test.csproj.AssemblyReference.cache
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week8\Razor Test\obj\Debug\net8.0\Razor Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week8\Razor Test\obj\Debug\net8.0\Razor Test.AssemblyInfoInputs.cache
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week8\Razor Test\obj\Debug\net8.0\Razor Test.AssemblyInfo.cs
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week8\Razor Test\obj\Debug\net8.0\Razor Test.csproj.CoreCompileInputs.cache
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week8\Razor Test\obj\Debug\net8.0\Razor Test.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week8\Razor Test\obj\Debug\net8.0\Razor Test.RazorAssemblyInfo.cache
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week8\Razor Test\obj\Debug\net8.0\Razor Test.RazorAssemblyInfo.cs
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week8\Razor Test\obj\Debug\net8.0\Razor Test.sourcelink.json
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week8\Razor Test\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week8\Razor Test\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week8\Razor Test\obj\Debug\net8.0\staticwebassets\msbuild.Razor Test.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week8\Razor Test\obj\Debug\net8.0\staticwebassets\msbuild.build.Razor Test.props
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week8\Razor Test\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Razor Test.props
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week8\Razor Test\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Razor Test.props
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week8\Razor Test\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week8\Razor Test\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week8\Razor Test\obj\Debug\net8.0\scopedcss\bundle\Razor Test.styles.css
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week8\Razor Test\obj\Debug\net8.0\scopedcss\projectbundle\Razor Test.bundle.scp.css
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week8\Razor Test\obj\Debug\net8.0\Razor Test.csproj.Up2Date
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week8\Razor Test\obj\Debug\net8.0\Razor Test.dll
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week8\Razor Test\obj\Debug\net8.0\refint\Razor Test.dll
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week8\Razor Test\obj\Debug\net8.0\Razor Test.pdb
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week8\Razor Test\obj\Debug\net8.0\Razor Test.genruntimeconfig.cache
+C:\Users\ninja\Documents\GitHub\ClassRepo-MASTER\Q4\DOTNET\Week8\Razor Test\obj\Debug\net8.0\ref\Razor Test.dll
