@@ -1,42 +1,51 @@
 ﻿@page
 @model Razor_Test.Pages.AddTicketModel
 @{
-    ViewData["Title"] = "AddTicket";
+    ViewData["Title"] = "Refund Request";
 }
 
-<h1>AddTicket</h1>
+<h1>Request a Refund</h1>
+<p><b>NOTE:</b> In order to be eligible for a refund, you must have purchased the game within 2 weeks prior to your request AND have less than 2 hours of play time on the game.</p>
 
 <form method="post">
     
     <div class="form-group">
-        <label asp-for="tTicket.Ticket_Title"></label>
-        <input asp-for="tTicket.Ticket_Title" type="text" class="form-control" placeholder="Brief Descriptive Title" />
+        <label asp-for="tTicket.Ticket_Title">Game:</label>
+        <select asp-for="tTicket.Ticket_Title" class="form-control">
+            <option value="">-- Select a Game --</option>
+            <option value="7 Days to Die">7 Days to Die</option>
+            <option value="Minecraft">Minecraft</option>
+            <option value="Terraria">Terraria</option>
+            <option value="Have a Nice Death">Have a Nice Death</option>
+            <option value="Elite Dangerous">Elite Dangerous</option>
+        </select>
         <span asp-validation-for="tTicket.Ticket_Title" class="text-danger"></span>
     </div>
 
     <div class="form-group">
-        <label asp-for="tTicket.Ticket_Desc"></label>
-        <input asp-for="tTicket.Ticket_Desc" type="text" class="form-control" placeholder="Description of Problem" />
+        <label asp-for="tTicket.Category">Reason</label>
+        <select asp-for="tTicket.Category" class="form-control">
+            <option value="">-- Select a Reason --</option>
+            <option value="Didn't like it">Didn't like it</option>
+            <option value="Never played it">Never played it</option>
+            <option value="Too Expensive">Too Expensive</option>
+            <option value="Wasn't what I thought">Wasn't what I thought</option>
+            <option value="Didn't work">Didn't work</option>
+            <option value="Scam">Scam</option>
+        </select>
+        <span asp-validation-for="tTicket.Category" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="tTicket.Ticket_Desc">Explaination</label>
+        <input asp-for="tTicket.Ticket_Desc" type="text" class="form-control" placeholder="Reason for refund goes here..." />
         <span asp-validation-for="tTicket.Ticket_Desc" class="text-danger"></span>
     </div>
 
-    @*<div class="form-group">
-        <label asp-for="tTicket.Ticket_Category"></label>
-        <select asp-for="tTicket.Category" class="form-control">
-
-        </select>
-        <span asp-validation-for="tTicket.Category" class="text-danger"></span>
-    </div>*@
 
     <div class="form-group">
-        <label asp-for="tTicket.Category"></label>
-        <input asp-for="tTicket.Category" type="text" class="form-control" placeholder="Category" />
-        <span asp-validation-for="tTicket.Category" class="text-danger"></span>
-    </div>
-
-    <div class="form-group">
-        <label asp-for="tTicket.Reporting_Email"></label>
-        <input asp-for="tTicket.Reporting_Email" type="text" class="form-control" placeholder="Your Email" />
+        <label asp-for="tTicket.Reporting_Email">Redox Email</label>
+        <input asp-for="tTicket.Reporting_Email" type="text" class="form-control" placeholder="Your Redox account email" />
         <span asp-validation-for="tTicket.Reporting_Email" class="text-danger"></span>
     </div>
 
@@ -51,7 +60,7 @@
 @{ 
     if (Model.tTicket != null && Model.tTicket.Feedback != null)
     {
-        <h1>Results</h1>
+        <h1>Refund Submitted - Pending</h1>
         <p>@Model.tTicket.Feedback</p>
     }
 }

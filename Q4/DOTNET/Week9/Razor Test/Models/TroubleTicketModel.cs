@@ -15,7 +15,7 @@ namespace Razor_Test.Models
         public string Ticket_Desc { get; set; }
 
         [Required]
-        [StringOptionsValidate(Allowed = new String[] { "Monitor", "Computer", "Printer", "Software Install", "Software Upgrade", "Configuration", "Internet" }, ErrorMessage = "Sorry...Category is invalid. Categories: Monitor, Computer, Printer, Software Install, Software Upgrade, Configuration, Internet")]
+        [StringOptionsValidate(Allowed = new String[] { "Didn't like it", "Never played it", "Too Expensive", "Wasn't what I thought", "Didn't work", "Scam" }, ErrorMessage = "You must select a category from the list")]
         public string Category { get; set; }
 
         [Required, EmailAddress]
@@ -23,12 +23,12 @@ namespace Razor_Test.Models
 
         [Required]
         [Display(Name = "Original date of the problem.")]
-        [DataType(DataType.DateTime), DisplayFormat(DataFormatString = "{0:MM/dd/yyyy hh:mm:ss tt", ApplyFormatInEditMode = true)]
+        [DataType(DataType.DateTime), DisplayFormat(DataFormatString = "{0:MM/dd/yyyy hh:mm:ss tt}", ApplyFormatInEditMode = true)]
         [MyDate(ErrorMessage = "Future date entry not allowed")]
         public DateTime Orig_Date { get; set; }
 
         [Display(Name = "Date of solutions/closure.")]
-        [DataType(DataType.DateTime), DisplayFormat(DataFormatString = "{0:MM/dd/yyyy hh:mm:ss tt", ApplyFormatInEditMode = true)]
+        [DataType(DataType.DateTime), DisplayFormat(DataFormatString = "{0:MM/dd/yyyy hh:mm:ss tt}", ApplyFormatInEditMode = true)]
         [MyDate(ErrorMessage = "Future date entry not allowed")]
         public DateTime Close_Date { get; set; }
         public string? Responder_Notes { get; set; }

@@ -11,7 +11,7 @@
         <input type="text" name="make" value="Chevy"><br>
         <input type="text" name="model" value="Corvette"><br>
         <input type="number" name="year" maxlength="4" value="2010"><br>
-        <button>Submit</button>
+        <button name="submit">Submit</button>
   
     <div id="output">
 
@@ -20,12 +20,12 @@
 
     window.addEventListener(`load`, load)
 
+    let deleteButtons;
 
     async function load(e){
         var promise = await fetch("http://localhost:80/jeep");
         var data = await promise.json(data)
         let sortedData = data.sort((a, b) => (b.year - a.year));
-        console.log(sortedData)
 
         var output = document.querySelector(`#output`);
         var message =``
@@ -38,29 +38,36 @@
                 }
 
             //add a button
-            message += `</div> <button>Delete</button> </div>`
+            message += `<button name="delete">Delete</button>`
         }
 
         output.innerHTML = message
 
         //query select all the buttons
-        deleteButtons = document.querySelectorAll('button')
-        console.log(deleteButtons)
-        
-        for (i=1; i<deleteButtons.length; i++) {
-            deleteButtons[i].addEventListener(`click`, async (e) => {
-                let promise = await fetch(`http://localhost:80/delete/${i--}`)
-            })
-        }
+        deleteButtons = document.querySelectorAll('button[name="delete"]')
         //add event listeners to each button
             //send the index number of the button you selected to the `delete` route
             //the object you send could look like this {index:/*correct index number goes here*/}
             //call the load function to update the page
+            for (let i=0; i<deleteButtons.length; i++) {
+                deleteButtons[i].addEventListener(`click`, async (e) => {
+                    await fetch("http://localhost:80/delete", {
+                        method: "POST",
+                        body: JSON.stringify({
+                            index: i
+                        }),
+                        headers: {
+                            "Content-type": "application/json; charset=UTF-8"
+                        }
+                    });
 
+                    load();
+                })
+        }
     }
 
 
-    document.querySelector(`button`).addEventListener(`click`, async (e)=>{
+    document.querySelector(`button[name="submit"]`).addEventListener(`click`, async (e)=>{
 
        await fetch("http://localhost:80/jeep", {
     

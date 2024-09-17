@@ -1,50 +1,74 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ninja\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\",
+  "WorkspaceRootPath": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|c:\\users\\ninja\\documents\\github\\classrepo-master\\q4\\dotnet\\week9\\razor test\\pages\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|solutionrelative:pages\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|c:\\users\\ninja\\documents\\github\\classrepo-master\\q4\\dotnet\\week9\\razor test\\pages\\admin\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|solutionrelative:pages\\admin\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|c:\\users\\ninja\\documents\\github\\classrepo-master\\q4\\dotnet\\week9\\razor test\\pages\\addticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|solutionrelative:pages\\addticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|c:\\users\\ninja\\documents\\github\\classrepo-master\\q4\\dotnet\\week9\\razor test\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|c:\\users\\ninja\\documents\\github\\classrepo-master\\q4\\dotnet\\week9\\razor test\\models\\ticketadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|solutionrelative:models\\ticketadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|c:\\users\\ninja\\documents\\github\\classrepo-master\\q4\\dotnet\\week9\\razor test\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|c:\\users\\ninja\\documents\\github\\classrepo-master\\q4\\dotnet\\week9\\razor test\\pages\\admin\\controlpanel.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|solutionrelative:pages\\admin\\controlpanel.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|c:\\users\\ninja\\documents\\github\\classrepo-master\\q4\\dotnet\\week9\\razor test\\pages\\admin\\controlpanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|solutionrelative:pages\\admin\\controlpanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|c:\\users\\ninja\\documents\\github\\classrepo-master\\q4\\dotnet\\week9\\razor test\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|c:\\users\\ninja\\onedrive\\documents\\github\\classrepo-master\\q4\\dotnet\\week9\\razor test\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|c:\\users\\ninja\\documents\\github\\classrepo-master\\q4\\dotnet\\week9\\razor test\\models\\ticketadmindataaccesslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|c:\\users\\ninja\\onedrive\\documents\\github\\classrepo-master\\q4\\dotnet\\week9\\razor test\\pages\\admin\\deleteticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|solutionrelative:pages\\admin\\deleteticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|c:\\users\\ninja\\onedrive\\documents\\github\\classrepo-master\\q4\\dotnet\\week9\\razor test\\pages\\admin\\editticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|solutionrelative:pages\\admin\\editticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|c:\\users\\ninja\\onedrive\\documents\\github\\classrepo-master\\q4\\dotnet\\week9\\razor test\\pages\\addticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|solutionrelative:pages\\addticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|c:\\users\\ninja\\onedrive\\documents\\github\\classrepo-master\\q4\\dotnet\\week9\\razor test\\pages\\admin\\controlpanel.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|solutionrelative:pages\\admin\\controlpanel.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|c:\\users\\ninja\\onedrive\\documents\\github\\classrepo-master\\q4\\dotnet\\week9\\razor test\\pages\\admin\\controlpanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|solutionrelative:pages\\admin\\controlpanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|c:\\users\\ninja\\onedrive\\documents\\github\\classrepo-master\\q4\\dotnet\\week9\\razor test\\models\\troubleticketmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|solutionrelative:models\\troubleticketmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|c:\\users\\ninja\\onedrive\\documents\\github\\classrepo-master\\q4\\dotnet\\week9\\razor test\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|c:\\users\\ninja\\onedrive\\documents\\github\\classrepo-master\\q4\\dotnet\\week9\\razor test\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|c:\\users\\ninja\\onedrive\\documents\\github\\classrepo-master\\q4\\dotnet\\week9\\razor test\\pages\\admin\\deleteticket.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|solutionrelative:pages\\admin\\deleteticket.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|c:\\users\\ninja\\onedrive\\documents\\github\\classrepo-master\\q4\\dotnet\\week9\\razor test\\pages\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|solutionrelative:pages\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|c:\\users\\ninja\\onedrive\\documents\\github\\classrepo-master\\q4\\dotnet\\week9\\razor test\\pages\\admin\\editticket.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|solutionrelative:pages\\admin\\editticket.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|c:\\users\\ninja\\onedrive\\documents\\github\\classrepo-master\\q4\\dotnet\\week9\\razor test\\models\\troubleticketdataaccesslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|solutionrelative:models\\troubleticketdataaccesslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|c:\\users\\ninja\\onedrive\\documents\\github\\classrepo-master\\q4\\dotnet\\week9\\razor test\\models\\ticketadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|solutionrelative:models\\ticketadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|c:\\users\\ninja\\onedrive\\documents\\github\\classrepo-master\\q4\\dotnet\\week9\\razor test\\models\\ticketadmindataaccesslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|solutionrelative:models\\ticketadmindataaccesslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|c:\\users\\ninja\\documents\\github\\classrepo-master\\q4\\dotnet\\week9\\razor test\\models\\troubleticketdataaccesslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|solutionrelative:models\\troubleticketdataaccesslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|c:\\users\\ninja\\onedrive\\documents\\github\\classrepo-master\\q4\\dotnet\\week9\\razor test\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|c:\\users\\ninja\\onedrive\\documents\\github\\classrepo-master\\q4\\dotnet\\week9\\razor test\\pages\\admin\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16B8A2-6CEC-40A2-A6D9-E7465A72BDDE}|Razor Test.csproj|solutionrelative:pages\\admin\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,153 +78,231 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\ninja\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Startup.cs",
-              "RelativeDocumentMoniker": "Startup.cs",
-              "ToolTip": "C:\\Users\\ninja\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Startup.cs",
-              "RelativeToolTip": "Startup.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABIAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T10:06:56.807Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ControlPanel.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\ninja\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Pages\\Admin\\ControlPanel.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Admin\\ControlPanel.cshtml.cs",
-              "ToolTip": "C:\\Users\\ninja\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Pages\\Admin\\ControlPanel.cshtml.cs",
-              "RelativeToolTip": "Pages\\Admin\\ControlPanel.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T10:03:19.717Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "ControlPanel.cshtml",
-              "DocumentMoniker": "C:\\Users\\ninja\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Pages\\Admin\\ControlPanel.cshtml",
+              "DocumentMoniker": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Pages\\Admin\\ControlPanel.cshtml",
               "RelativeDocumentMoniker": "Pages\\Admin\\ControlPanel.cshtml",
-              "ToolTip": "C:\\Users\\ninja\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Pages\\Admin\\ControlPanel.cshtml",
+              "ToolTip": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Pages\\Admin\\ControlPanel.cshtml",
               "RelativeToolTip": "Pages\\Admin\\ControlPanel.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABIAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-13T10:03:16.459Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\ninja\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Pages\\Admin\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Admin\\Index.cshtml.cs",
-              "ToolTip": "C:\\Users\\ninja\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Pages\\Admin\\Index.cshtml.cs",
-              "RelativeToolTip": "Pages\\Admin\\Index.cshtml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAQwCEAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T09:54:32.197Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ninja\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Pages\\Admin\\Index.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Admin\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ninja\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Pages\\Admin\\Index.cshtml",
-              "RelativeToolTip": "Pages\\Admin\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-13T09:48:07.645Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "TicketAdminDataAccessLayer.cs",
-              "DocumentMoniker": "C:\\Users\\ninja\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Models\\TicketAdminDataAccessLayer.cs",
-              "RelativeDocumentMoniker": "Models\\TicketAdminDataAccessLayer.cs",
-              "ToolTip": "C:\\Users\\ninja\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Models\\TicketAdminDataAccessLayer.cs",
-              "RelativeToolTip": "Models\\TicketAdminDataAccessLayer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T09:20:04.703Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "TicketAdmin.cs",
-              "DocumentMoniker": "C:\\Users\\ninja\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Models\\TicketAdmin.cs",
-              "RelativeDocumentMoniker": "Models\\TicketAdmin.cs",
-              "ToolTip": "C:\\Users\\ninja\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Models\\TicketAdmin.cs",
-              "RelativeToolTip": "Models\\TicketAdmin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAWAAAAAAAAAA==",
+              "Title": "ControlPanel.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Pages\\Admin\\ControlPanel.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Admin\\ControlPanel.cshtml.cs",
+              "ToolTip": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Pages\\Admin\\ControlPanel.cshtml.cs",
+              "RelativeToolTip": "Pages\\Admin\\ControlPanel.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T09:19:32.837Z",
+              "WhenOpened": "2024-09-13T10:03:19.717Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AddTicket.cshtml",
-              "DocumentMoniker": "C:\\Users\\ninja\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Pages\\AddTicket.cshtml",
+              "DocumentMoniker": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Pages\\AddTicket.cshtml",
               "RelativeDocumentMoniker": "Pages\\AddTicket.cshtml",
-              "ToolTip": "C:\\Users\\ninja\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Pages\\AddTicket.cshtml",
+              "ToolTip": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Pages\\AddTicket.cshtml",
               "RelativeToolTip": "Pages\\AddTicket.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACAAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-29T20:09:43.343Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\ninja\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Pages\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
-              "ToolTip": "C:\\Users\\ninja\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Pages\\Index.cshtml.cs",
-              "RelativeToolTip": "Pages\\Index.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T20:00:41.54Z",
+              "DocumentIndex": 1,
+              "Title": "DeleteTicket.cshtml",
+              "DocumentMoniker": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Pages\\Admin\\DeleteTicket.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Admin\\DeleteTicket.cshtml",
+              "ToolTip": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Pages\\Admin\\DeleteTicket.cshtml",
+              "RelativeToolTip": "Pages\\Admin\\DeleteTicket.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-13T15:03:15.927Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
+              "Title": "DeleteTicket.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Pages\\Admin\\DeleteTicket.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Admin\\DeleteTicket.cshtml.cs",
+              "ToolTip": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Pages\\Admin\\DeleteTicket.cshtml.cs",
+              "RelativeToolTip": "Pages\\Admin\\DeleteTicket.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T15:03:31.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\ninja\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Pages\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\ninja\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Pages\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAABcAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-29T19:54:32.694Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "TroubleTicketDataAccessLayer.cs",
-              "DocumentMoniker": "C:\\Users\\ninja\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Models\\TroubleTicketDataAccessLayer.cs",
-              "RelativeDocumentMoniker": "Models\\TroubleTicketDataAccessLayer.cs",
-              "ToolTip": "C:\\Users\\ninja\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Models\\TroubleTicketDataAccessLayer.cs",
-              "RelativeToolTip": "Models\\TroubleTicketDataAccessLayer.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAAwFoAAAAaAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "TroubleTicketModel.cs",
+              "DocumentMoniker": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Models\\TroubleTicketModel.cs",
+              "RelativeDocumentMoniker": "Models\\TroubleTicketModel.cs",
+              "ToolTip": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Models\\TroubleTicketModel.cs",
+              "RelativeToolTip": "Models\\TroubleTicketModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAACbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T07:12:47.995Z",
+              "WhenOpened": "2024-09-13T13:05:51.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EditTicket.cshtml",
+              "DocumentMoniker": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Pages\\Admin\\EditTicket.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Admin\\EditTicket.cshtml",
+              "ToolTip": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Pages\\Admin\\EditTicket.cshtml",
+              "RelativeToolTip": "Pages\\Admin\\EditTicket.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAC8AAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-13T13:24:07.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Index.cshtml",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAAAkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-13T13:03:57.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Index.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T20:00:41.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EditTicket.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Pages\\Admin\\EditTicket.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Admin\\EditTicket.cshtml.cs",
+              "ToolTip": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Pages\\Admin\\EditTicket.cshtml.cs",
+              "RelativeToolTip": "Pages\\Admin\\EditTicket.cshtml.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAzwDMAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T13:31:11.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Pages\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Pages\\Admin\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Admin\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-13T09:48:07.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Startup.cs",
+              "RelativeDocumentMoniker": "Startup.cs",
+              "ToolTip": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Startup.cs",
+              "RelativeToolTip": "Startup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T10:06:56.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TicketAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Models\\TicketAdmin.cs",
+              "RelativeDocumentMoniker": "Models\\TicketAdmin.cs",
+              "ToolTip": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Models\\TicketAdmin.cs",
+              "RelativeToolTip": "Models\\TicketAdmin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T09:19:32.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TroubleTicketDataAccessLayer.cs",
+              "DocumentMoniker": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Models\\TroubleTicketDataAccessLayer.cs",
+              "RelativeDocumentMoniker": "Models\\TroubleTicketDataAccessLayer.cs",
+              "ToolTip": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Models\\TroubleTicketDataAccessLayer.cs",
+              "RelativeToolTip": "Models\\TroubleTicketDataAccessLayer.cs",
+              "ViewState": "AQIAAKQAAAAAAAAAAAAiwM8AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T07:12:47.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TicketAdminDataAccessLayer.cs",
+              "DocumentMoniker": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Models\\TicketAdminDataAccessLayer.cs",
+              "RelativeDocumentMoniker": "Models\\TicketAdminDataAccessLayer.cs",
+              "ToolTip": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Models\\TicketAdminDataAccessLayer.cs",
+              "RelativeToolTip": "Models\\TicketAdminDataAccessLayer.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwCkAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T09:20:04.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Pages\\Admin\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Admin\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Pages\\Admin\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Admin\\Index.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T09:54:32.197Z",
               "EditorCaption": ""
             }
           ]

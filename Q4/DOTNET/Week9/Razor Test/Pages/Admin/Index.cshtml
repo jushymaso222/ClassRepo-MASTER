@@ -4,7 +4,7 @@
 	ViewData["Title"] = "Index";
 }
 
-<h1>Loigin Page</h1>
+<h1>Login Page</h1>
 
 <form method="post">
 	<div class="form-group">
@@ -15,7 +15,7 @@
 
 	<div class="form-group">
 		<label asp-for="tAdmin.TicketAdmin_PW"></label>
-		<input asp-for="tAdmin.TicketAdmin_PW" type="text" class="form-control" placeholder="Pasword" />
+		<input asp-for="tAdmin.TicketAdmin_PW" type="password" class="form-control" placeholder="Pasword" />
 		<span asp-validation-for="tAdmin.TicketAdmin_PW" class="text-danger"></span>
 	</div>
 

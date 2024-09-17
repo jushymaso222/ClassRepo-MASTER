@@ -1,0 +1,45 @@
+﻿@page
+@model Razor_Test.Pages.Admin.DeleteTicketModel
+@{
+    ViewData["Ticket"] = "Delete Refund";
+}
+
+<h1>Delete Refund</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Record:</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayFor(model => model.tTicket.Ticket_Title)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.tTicket.Category)
+        </dd>
+        <dt>
+            @Html.DisplayFor(model => model.tTicket.Ticket_Desc)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.tTicket.Orig_Date)
+        </dd>
+        <dt>
+            @Html.DisplayFor(model => model.tTicket.Reporting_Email)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.tTicket.Responder_Email)
+        </dd>
+        <dt>
+            @Html.DisplayFor(model => model.tTicket.Responder_Notes)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.tTicket.Close_Date)
+        </dd>
+    </dl>
+
+    <form method="post">
+        <input type="hidden" asp-for="tTicket.Ticket_ID" />
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-page="/Admin/ControlPanel">Back to List</a>
+    </form>
+</div>

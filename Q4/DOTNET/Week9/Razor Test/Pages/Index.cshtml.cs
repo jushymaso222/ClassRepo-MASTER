@@ -24,6 +24,11 @@ namespace Razor_Test.Pages
             factory = new TroubleTicketDataAccessLayer(_configuration);
         }
 
+        public IActionResult OnPost()
+        {
+            return RedirectToPage("AddTicket");
+        }
+
         public void OnGet()
         {
             if (string.IsNullOrWhiteSpace(FName))

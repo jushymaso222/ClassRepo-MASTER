@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ninja\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Razor Test.csproj": {}
+    "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Razor Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ninja\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Razor Test.csproj": {
+    "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Razor Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ninja\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Razor Test.csproj",
+        "projectUniqueName": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Razor Test.csproj",
         "projectName": "Razor Test",
-        "projectPath": "C:\\Users\\ninja\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Razor Test.csproj",
+        "projectPath": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\Razor Test.csproj",
         "packagesPath": "C:\\Users\\ninja\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ninja\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\obj\\",
+        "outputPath": "C:\\Users\\ninja\\OneDrive\\Documents\\GitHub\\ClassRepo-MASTER\\Q4\\DOTNET\\Week9\\Razor Test\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\ninja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -69,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
