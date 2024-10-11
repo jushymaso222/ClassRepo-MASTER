@@ -69,20 +69,28 @@ if ($errors == ['fName' => "", 'lName' => "", 'Marital' => "", 'DOB' => "", 'Hei
     $pBMIN = 703*($weight/$height**2);
     if ($pBMIN < 16) {
         $pBMIC = "Severe Thinness";
+        $textColor = "#C70039";
     } elseif ($pBMIN < 17) {
         $pBMIC = "Moderate Thinness";
+        $textColor = "#FF5733";
     } elseif ($pBMIN < 18.5) {
         $pBMIC = "Mild Thinness";
+        $textColor = "#FFC300";
     } elseif ($pBMIN < 25) {
         $pBMIC = "Normal";
+        $textColor = "#DAF7A6";
     } elseif ($pBMIN < 30) {
         $pBMIC = "Overweight";
+        $textColor = "#FFC300";
     } elseif ($pBMIN < 35) {
         $pBMIC = "Obese Class I";
+        $textColor = "#FF5733";
     } elseif ($pBMIN < 40) {
         $pBMIC = "Obese Class II";
+        $textColor = "#C70039";
     } elseif ($pBMIN > 40) {
         $pBMIC = "Obese Class III";
+        $textColor = "#900C3F";
     }
     
     include 'patient.php';

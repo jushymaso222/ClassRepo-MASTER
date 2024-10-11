@@ -54,7 +54,7 @@
                 <span class="error"><?= $errors['Weight'];?></span>
             </div>
 
-            <input type="submit" text="Submit">
+            <input type="submit" text="Submit" id="submit">
         </form>
     </div>
 
