@@ -21,7 +21,6 @@ header {
     flex: 1;
     font-family:Arial, Helvetica, sans-serif;
     background-color: whitesmoke;
-    margin: 0;
     height: 8em;
     border-bottom: 3px solid black;
 }
@@ -36,4 +35,5 @@ header {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     display: inline-block;
     text-align: center;
+    margin-bottom: 10px;
 }
