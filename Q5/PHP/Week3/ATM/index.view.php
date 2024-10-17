@@ -10,11 +10,11 @@
 <body>
 
     <header>
-        <h1>Tax Evasion eBanking</h1>
+        <h1>Tax Evasion eBanking&#8482</h1>
         <i class="fa-solid fa-building-columns fa-2xl"></i>
     </header>
               
-    <h2>Available Accounts</h2>
+    <h2 style="color: azure;">Available Accounts</h2>
         <div class="wrapper">
             <a class="account-click" href="index.php?type=checking">
                 <div class="account">

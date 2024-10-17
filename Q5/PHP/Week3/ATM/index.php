@@ -5,6 +5,8 @@ include "./modules/savings.php";
 
 session_start();
 
+date_default_timezone_set('America/New_York');
+
 // Check if the session variables already exist
 if (!isset($_SESSION["checking"])) {
     $_SESSION["checking"] = new CheckingAccount('2398712398478', 0, date("Y/m/d"));
@@ -32,10 +34,10 @@ function getTransactions($checking, $savings, $type): void {
 
     for ($i = count($var)-1; $i >= 0; $i--) {
         if ((int)$var[$i]["amount"] >= 0) {
-            $color = "green";
+            $color = "rgb(0,255,0)";
             $sign = "+";
         } else {
-            $color = "red";
+            $color = "rgb(255,0,0)";
             $sign = "-";
         }
 
@@ -46,7 +48,7 @@ function getTransactions($checking, $savings, $type): void {
         $element .= "</div>";
         $element .= '<div class="transaction-right">';
         $element .= '<h3 style="color:' . $color . ' ">' . $sign . '$' . abs(round($var[$i]["amount"], 2)) . "</h3>";
-        $element .= '<h3 class="transaction-balance">$' . abs(round($var[$i]["balance"], 2)) . "</h3>";
+        $element .= '<h3 class="transaction-balance">$' . round($var[$i]["balance"], 2) . "</h3>";
         $element .= "</div>";
         $element .= "</div>";
 

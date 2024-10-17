@@ -59,7 +59,7 @@
     </div>
 
     <div id="transactions">
-        <?= getTransactions($checking, $savings, $accountType) ?>
+        <?= getTransactions($_SESSION["checking"], $_SESSION["savings"], $accountType) ?>
     </div>
     
     <script><?php include "select.js";?></script>
