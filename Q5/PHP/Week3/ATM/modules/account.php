@@ -1,28 +1,25 @@
 <?php
-// This is the base class for checking and savings accounts
-// It is declared **abstract** so that it can not be instantiated
-// Child classes must be derived that 
-// implement the withdrawal and getAccountDetails methods
-
-/* Note:
-	You should implement all other methods in the class
-*/
 
 abstract class Account 
 {
 	protected $accountId;
 	protected $balance;
 	protected $startDate;
+	protected $transactions; //["desc" => "Test", "amount" => "100"]
 	
 	public function __construct ($id, $bal, $startDt) 
 	{
-	   // write code here
-	} // end constructor
+	   $this->accountId = $id;
+	   $this->balance = $bal;
+	   $this->startDate = $startDt;
+	   $this->transactions = array();
+	}
 	
-	public function deposit ($amount) 
+	public function deposit ($amount, $desc = " ") 
 	{
-		// write code here
-	} // end deposit
+		$this->balance += $amount;
+		$this->transactions[] = ["desc" => $desc,"amount"=> $amount, "time"=>date("Y-m-d h:i:sa"), "balance"=>$this->balance];
+	}
 
 	// This is an abstract method. 
 	// This method must be defined in all classes
@@ -31,25 +28,33 @@ abstract class Account
 	
 	public function getStartDate() 
 	{
-		// write code here
-	} // end getStartDate
+		return $this->startDate;
+	}
 
 	public function getBalance() 
 	{
-		// write code here
-	} // end getBalance
+		return $this->balance;
+	}
 
 	public function getAccountId() 
 	{
-		// write code here
-	} // end getAccountId
+		return $this->accountId;
+	}
+
+	public function getTransactions() {
+		return $this->transactions;
+	}
 
 	// Display AccountID, Balance and StartDate in a nice format
 	protected function getAccountDetails()
 	{
-		// write code here
-	} // end getAccountDetails
+		$msg = "";
+		$msg .= "ID: " . $this->accountId . "<br>";
+		$msg .= "Balance: " . $this->balance . "<br>";
+		$msg .= "Start Date: " . $this->startDate;
+		return $msg;
+	}
 	
-} // end account
+}
 
 ?>

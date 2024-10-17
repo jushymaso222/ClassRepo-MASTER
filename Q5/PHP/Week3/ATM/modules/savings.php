@@ -1,27 +1,28 @@
 <?php
 
-require_once "./account.php";
+require_once "account.php";
  
 class SavingsAccount extends Account 
 {
 
-	public function withdrawal($amount) 
+	public function withdrawal($amount, $desc = " ") 
 	{
-		// write code here. Return true if withdrawal goes through; false otherwise
-	} //end withdrawal
+		if ($this->balance-$amount >= 0) {
+			$this->balance -= $amount;
+			array_push($this->transactions, ["amount"=>$amount*-1,"desc"=>$desc, "time"=>date("Y-m-d h:i:sa"), "balance"=>$this->balance]);
+			return true;
+		} else {
+			return false;
+		}
+	}
 
 	public function getAccountDetails() 
 	{
-	   // look at how it's defined in other class. You should be able to figure this out ...
-	} //end getAccountDetails
+		$accountDetails = "<h2>Savings Account</h2>";
+		$accountDetails .= parent::getAccountDetails();
+		
+		return $accountDetails;
+	}
 	
-} // end Savings
-
-// The code below runs everytime this class loads and 
-// should be commented out after testing.
-
-    $savings = new SavingsAccount('S123', 5000, '03-20-2020');
-    
-    echo $savings->getAccountDetails();
-    
+}
 ?>

@@ -1,17 +1,22 @@
 <?php
  
-require_once "./account.php";
+require_once "account.php";
 
 class CheckingAccount extends Account 
 {
 	const OVERDRAW_LIMIT = -200;
 
-	public function withdrawal($amount) 
+	public function withdrawal($amount, $desc = " ") 
 	{
-		// write code here. Return true if withdrawal goes through; false otherwise
-	} // end withdrawal
+		if ($this->balance-$amount >= self::OVERDRAW_LIMIT) {
+			$this->balance -= $amount;
+			array_push($this->transactions, ["amount"=>$amount*-1,"desc"=>$desc, "time"=>date("Y-m-d h:i:sa"), "balance"=>$this->balance]);
+			return true;
+		} else {
+			return false;
+		}
+	}
 
-	//freebie. I am giving you this code.
 	public function getAccountDetails() 
 	{
 		$accountDetails = "<h2>Checking Account</h2>";
@@ -21,15 +26,4 @@ class CheckingAccount extends Account
 	}
 }
 
-
-// The code below runs everytime this class loads and 
-// should be commented out after testing.
-
-$checking = new CheckingAccount ('C123', 1000, '12-20-2019');
-$checking->withdrawal(200);
-$checking->deposit(500);
-
-echo $checking->getAccountDetails();
-echo $checking->getStartDate();
-    
 ?>

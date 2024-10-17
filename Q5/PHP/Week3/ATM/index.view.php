@@ -14,7 +14,7 @@
         <i class="fa-solid fa-building-columns fa-2xl"></i>
     </header>
               
-    <h2>Accounts</h2>
+    <h2>Available Accounts</h2>
         <div class="wrapper">
             <a class="account-click" href="index.php?type=checking">
                 <div class="account">
@@ -22,7 +22,7 @@
                         <h3>Checking</h3>
                         <h4><?= $checkingAccountNumber?></h4>
                     </div>
-                    <p class="right-align">$100.00</p>
+                    <p class="right-align">$<?= round($_SESSION["checking"]->getBalance(), 2) ?></p>
                 </div>
             </a>
 
@@ -32,43 +32,9 @@
                         <h3>Savings</h3>
                         <h4><?= $savingsAccountNumber?></h4>
                     </div>
-                    <p class="right-align">$100.00</p>
+                    <p class="right-align">$<?= round($_SESSION["savings"]->getBalance(), 2) ?></p>
                 </div>
             </a>
         </div>
 </body>
 </html>
-
-<!--
-<div class="wrapper">
-            
-            <div class="account">
-              
-                    
-                    <div class="accountInner">
-                        <input type="text" name="checkingWithdrawAmount" value="" />
-                        <input type="submit" name="withdrawChecking" value="Withdraw" />
-                    </div>
-                    <div class="accountInner">
-                        <input type="text" name="checkingDepositAmount" value="" />
-                        <input type="submit" name="depositChecking" value="Deposit" /><br />
-                    </div>
-            
-            </div>
-
-            <div class="account">
-               
-                    
-                    <div class="accountInner">
-                        <input type="text" name="savingsWithdrawAmount" value="" />
-                        <input type="submit" name="withdrawSavings" value="Withdraw" />
-                    </div>
-                    <div class="accountInner">
-                        <input type="text" name="savingsDepositAmount" value="" />
-                        <input type="submit" name="depositSavings" value="Deposit" /><br />
-                    </div>
-            
-            </div>
-            
-        </div>
--->
