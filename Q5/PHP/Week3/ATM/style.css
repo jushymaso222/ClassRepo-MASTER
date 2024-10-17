@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    vertical-align: middle;
+    background-color: lightgray;
+    text-align: center;
+    align-items: center;
+    font-size: 15pt;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1.5em;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+
+header > h1 {
+    margin-left: 1em;
+}
+
+header > i {
+    margin-right: 1em;
+}
+
+h2 {
+    margin-left: 1em;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.account-click {
+    text-decoration: none;
+}
+
+.account {
+    display: flex;
+    background-color: whitesmoke;
+    padding: 10px;
+    color: black;
+    align-items: center;
+    border-bottom: 1px solid orange;
+    margin-left: 1em;
+    margin-right: 1em;
+    justify-content: space-between;
+}
+
+.account:hover {
+    background-color: lightgray;
+}
+
+.label {
+    text-align: right;
+    padding-right: 10px;
+    margin-bottom: 5px;
+}
+
+label {
+   font-weight: bold;
+}
+
+input[type=text] {width: 80px;}
+
+.left-align {
+    margin-left: 1em;
+}
+
+.right-align {
+    margin-right: 1em;
+}
+
+.error {color: red;}
+
+.accountInner {
+    margin-left:10px;margin-top:10px;
+}
+
