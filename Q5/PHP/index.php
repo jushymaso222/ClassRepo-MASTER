@@ -25,6 +25,11 @@
             <a class="button" href="Week2/Demo">Demo</a>
             <a class="button" href="Week2/PatientIntake">Patient Intake Form</a>
         </div>
+        <div class="link-group">
+            <h2>Week 3</h2>
+            <a class="button" href="Week3/Demo">Demo</a>
+            <a class="button" href="Week3/ATM">ATM</a>
+        </div>
     </div>
 </body>
 </html>
