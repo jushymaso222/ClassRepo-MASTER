@@ -30,6 +30,11 @@
             <a class="button" href="Week3/Demo">Demo</a>
             <a class="button" href="Week3/ATM">ATM</a>
         </div>
+        <div class="link-group">
+            <h2>Week 4</h2>
+            <a class="button" href="Week4/sql_demo">Demo</a>
+            <a class="button" href="Week4/patients">SQL Patient Intake</a>
+        </div>
     </div>
 </body>
 </html>
