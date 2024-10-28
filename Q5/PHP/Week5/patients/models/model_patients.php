@@ -54,6 +54,38 @@ function getPatient($id) {
 function updatePatient($id, $firstName, $lastName, $maritalStatus, $dateOfBirth) {
     global $db;
 
-    $sql = "UPDATE ";
+    $sql = "UPDATE patients SET patientFirstName = :f, patientLastName = :l, patientMarried = :m, patientBirthDate = :d WHERE id = :id";
+    $results = [];
+    $stmt = $db->prepare($sql);
+    $binds = array(
+        ":id"=> $id,
+        ":f"=> $firstName,
+        ":l"=> $lastName,
+        ":m"=> $maritalStatus,
+        ":d"=> $dateOfBirth
+    );
 
+    if ($stmt->execute($binds) && $stmt->rowCount() > 0) {
+        $results = "Updated Patient";
+    }
+
+    return $results;
+}
+
+function deletePatient($id) {
+    global $db;
+
+    $sql = "DELETE FROM patients WHERE id = :id";
+    $results = [];
+
+    $stmt = $db->prepare($sql);
+    $binds = array(
+        ":id"=> $id
+    );
+
+    if ($stmt->execute($binds) && $stmt->rowCount() > 0) {
+        $results = "Deleted Patient";
+    }
+
+    return $results;
 }

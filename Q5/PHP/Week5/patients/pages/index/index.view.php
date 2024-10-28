@@ -19,6 +19,7 @@
                 <th>Last Name</th>
                 <th>Marital Status</th>
                 <th>Date of Birth</th>
+                <th>Admin</th>
             </tr>
         </thead>
         <tbody>

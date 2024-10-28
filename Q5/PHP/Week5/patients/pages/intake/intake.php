@@ -69,10 +69,10 @@ if ($errors == ['fName' => "", 'lName' => "", 'Marital' => "", 'DOB' => ""] && $
 
     if (isset($_POST["addPatient"])) {
         addPatient($firstName, $lastName, $boolNum, filter_input(INPUT_POST, 'pDOB'));
-    } elseif (isset($_POST["editPatient"])) {
-
     } elseif (isset($_POST["updatePatient"])) {
-
+        updatePatient($id, $firstName, $lastName, $boolNum, filter_input(INPUT_POST,"pDOB"));
+    } elseif (isset($_POST["deletePatient"])) {
+        deletePatient($id);
     }
 
     set_url("index.php?redirect=index");
