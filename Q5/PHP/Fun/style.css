@@ -1,0 +1,50 @@
+body, html {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+  
+main {
+    flex: 1;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.custom-link {
+    color: white;
+    text-decoration: none;
+    font-size: 15pt;
+}
+
+.custom-link:hover {
+    color: rgb(101, 184, 235);
+    text-decoration: none;
+}
+
+header {
+    color: white;
+    background-color: rgb(125, 175, 183);
+}
+
+footer {
+    color: white;
+    background-color: rgb(84, 107, 134);
+    height: 1.5em;
+    border-top: 3px solid rgb(101, 184, 235);
+}
+
+nav {
+    height: 4em;
+    background-color: rgb(84, 107, 134);
+    border-bottom: 3px solid rgb(101, 184, 235);
+}
+
+.verticlerule {
+    color: white;
+}
