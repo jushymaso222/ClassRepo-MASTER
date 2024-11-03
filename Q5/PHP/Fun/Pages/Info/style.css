@@ -1,0 +1,225 @@
+body, html {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+  
+main {
+    flex: 1;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.custom-link {
+    color: white;
+    text-decoration: none;
+    font-size: 15pt;
+}
+
+.custom-link:hover {
+    color: rgb(101, 184, 235);
+    text-decoration: none;
+}
+
+header {
+    color: white;
+    background-color: rgb(125, 175, 183);
+}
+
+h2 {
+    text-align: center;
+    margin: 20px;
+}
+
+footer {
+    color: white;
+    background-color: rgb(84, 107, 134);
+    height: 1.5em;
+    border-top: 3px solid rgb(101, 184, 235);
+}
+
+nav {
+    height: 4em;
+    background-color: rgb(84, 107, 134);
+    border-bottom: 3px solid rgb(101, 184, 235);
+}
+
+.verticlerule {
+    color: white;
+}
+
+path {
+    stroke: white;
+    fill:paleturquoise !important;
+
+    transition: fill .4s ease;
+    transform-origin: center center;
+}
+
+path:hover {
+    fill: orange !important;
+    cursor: pointer;
+    transform: scale(1.005, 1.005);
+}
+
+/* #map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+#us-map {
+    display: block;
+    position: absolute;
+    top: 0;
+    margin-top: 300px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#details-box {
+    box-shadow: 0px 7px 40px rgba(0, 0, 0, 0.7);
+    opacity: 0%;
+    padding: 1rem;
+    border-radius: 8px;
+    font-size: 24px;
+    position: fixed;
+    color: white;
+    font-family: "Poppins";
+    background-color: black;
+    width: fit-content;
+    transform: translateX(-50%);
+    transition: opacity .4s ease;
+    z-index: 1;
+}
+
+/* TABLE */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 20pt;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #888888; 
+}
+ 
+tbody tr:nth-child(even) {
+    background-color: #BBBBBB;
+}
+
+thead {
+    height: 3em;
+    border-bottom: 2px solid paleturquoise;
+}
+
+thead {
+    background-color: #3f3f3f;
+}
+
+tr {
+    height: 2em;
+}
+
+td, th {
+    text-align: center;
+}
+
+th {
+    color: paleturquoise;
+}
+
+td {
+    color: white;
+}
+
+.table-link {
+    color: paleturquoise;
+}
+
+.table-link:hover {
+    color: aqua;
+    text-decoration: none;
+}
+
+/* ----- */
+
+#corner {
+    position: relative;
+    transform: translate(55%, -150%);
+    margin: 0;
+    padding: 0;
+    color: red;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    text-shadow: rgba(0, 0, 0, 0.2) 2px 2px;
+}
+
+#corner:hover {
+    color: rgb(175, 28, 28);
+    cursor: pointer;
+}
+
+#popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    flex: 1;
+    font-size: 15pt;
+    transform: translate(-50%, -50%);
+    background-color: rgb(132, 152, 161);
+    padding: 50px;
+    box-shadow: 12px 12px 10px 10px rgba(36, 36, 36, 0.25);
+    border: 0;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px; 
+    color: white;
+    text-align: center;
+    flex-direction: column;
+    border-right: 2px solid rgb(132, 205, 240);
+    border-bottom: 2px solid rgb(132, 205, 240);
+}
+
+.hidden {
+    display: none;
+    overflow: none;
+}
+
+#openPopup {
+    background-color: rgb(147, 164, 167);
+    color: paleturquoise;
+    text-align: center;
+    width: 300px;
+    margin-top:20px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+#openPopup:hover {
+    cursor: pointer;
+    color: rgb(73, 222, 232);
+}
+
+.openPopup-link:hover {
+    text-decoration: none;
+}
+
+.addDiv {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.error {
+    color: red;
+}

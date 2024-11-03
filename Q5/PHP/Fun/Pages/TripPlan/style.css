@@ -1,0 +1,112 @@
+body, html {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+  
+main {
+    flex: 1;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.custom-link {
+    color: white;
+    text-decoration: none;
+    font-size: 15pt;
+}
+
+.custom-link:hover {
+    color: rgb(101, 184, 235);
+    text-decoration: none;
+}
+
+header {
+    color: white;
+    background-color: rgb(125, 175, 183);
+}
+
+footer {
+    color: white;
+    background-color: rgb(84, 107, 134);
+    height: 1.5em;
+    border-top: 3px solid rgb(101, 184, 235);
+}
+
+nav {
+    height: 4em;
+    background-color: rgb(84, 107, 134);
+    border-bottom: 3px solid rgb(101, 184, 235);
+}
+
+.verticlerule {
+    color: white;
+}
+
+path {
+    stroke: white;
+    fill:paleturquoise !important;
+
+    transition: fill .4s ease;
+    transform-origin: center center;
+}
+
+path:hover {
+    fill: orange !important;
+    cursor: pointer;
+    transform: scale(1.005, 1.005);
+}
+
+/* #map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+#us-map {
+    display: block;
+    position: absolute;
+    top: 0;
+    margin-top: 300px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#details-box {
+    box-shadow: 0px 7px 40px rgba(0, 0, 0, 0.7);
+    opacity: 0%;
+    padding: 1rem;
+    border-radius: 8px;
+    font-size: 24px;
+    position: fixed;
+    color: white;
+    font-family: "Poppins";
+    background-color: black;
+    width: fit-content;
+    transform: translateX(-50%);
+    transition: opacity .4s ease;
+    z-index: 1;
+}
+
+.trip-plan {
+    display: grid;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px;
+}
+
+.center-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
