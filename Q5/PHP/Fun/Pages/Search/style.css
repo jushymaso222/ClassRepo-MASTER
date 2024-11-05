@@ -142,6 +142,11 @@ th {
 
 td {
     color: white;
+    border-right: 1px solid black;
+}
+
+td:last-child {
+    border-right: none;
 }
 
 .table-link {

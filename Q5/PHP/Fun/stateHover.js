@@ -77,3 +77,17 @@ document.addEventListener('click', function(e) {
     window.location = `Pages/Info/info.php?state=${content}`;
   }
 });
+
+var searchButton = document.getElementById("search-button");
+var content = document.getElementById(`form-search`);
+
+searchButton.addEventListener(`click`, function(e) {
+  window.location = `Pages/Search/search.php?search=${content.value}`;
+})
+
+content.addEventListener('keydown', (event) => {
+  if (event.key === 'Enter') {
+    console.log('Enter key pressed!');
+    window.location = `Pages/Search/search.php?search=${content.value}`;
+  }
+});

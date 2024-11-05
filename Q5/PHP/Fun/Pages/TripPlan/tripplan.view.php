@@ -13,22 +13,36 @@
         <header style="height: 200px;" class="d-flex justify-content-center align-items-center">
             <h1>50 States Adventure</h1>
         </header>
-        <nav class="navbar navbar-light w-100">
-            <a class="custom-link" href="../../index.php">
-                <i class="fa-solid fa-house"></i> Home
-            </a>
+        <nav style="height: 5em;">
+            <div class="container-fluid">
+                <div class="row">
+                    <!-- Column 1: Home link -->
+                    <div class="col text-center">
+                        <a class="custom-link" href="../../index.php">
+                            <i class="fa-solid fa-house"></i> Home
+                        </a>
+                    </div>
 
-            <span class="verticlerule">|</span>
+                    <!-- Column 2: Info link -->
+                    <div class="col text-center">
+                        <a class="custom-link" href="#">
+                            Info
+                        </a>
+                    </div>
 
-            <a class="custom-link" href="#">
-                Info
-            </a>
-
-            <span class="verticlerule">|</span>
-
-            <a class="custom-link" href="#">
-                Sign-In <i class="fa-solid fa-person-walking-arrow-right"></i>
-            </a>
+                    <!-- Column 3: Search bar -->
+                    <div class="col text-center">
+                        <div class="input-group justify-content-center">
+                            <div class="form-outline">
+                                <input type="search" id="form-search" class="form-control" placeholder="Search" style="width: 400px;"/>
+                            </div>
+                            <button type="button" class="btn btn-primary" id="search-button">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </nav>
 
         <main style="height: 100vh;">
@@ -132,6 +146,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="stateHover.js"></script>
+    <script src="search.js"></script>
 </body>
 </html>

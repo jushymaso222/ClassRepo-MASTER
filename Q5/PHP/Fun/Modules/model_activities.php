@@ -17,6 +17,22 @@ function getActivities($state) {
     return $results;
 }
 
+function searchActivities($searchTerm) {
+    global $db;
+    $results = [];
+
+    $stmt = $db->prepare("SELECT * FROM activities WHERE 0=0 AND state LIKE :s OR name LIKE :n");
+    $binds = array(
+        ":s"=> '%' . $searchTerm . '%',
+        ":n"=> '%' . $searchTerm . '%'
+    );
+
+    if($stmt->execute($binds) && $stmt->rowCount() > 0) {
+        $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
+    } 
+    return $results;
+}
+
 function addActivity($state, $name, $desc, $link, $price, $route, $priority, $notes) {
     global $db;
 

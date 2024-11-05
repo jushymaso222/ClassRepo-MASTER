@@ -46,12 +46,10 @@
         </nav>
 
         <main style="height: 100vh;">
-            <h2>
-                <?= $state; ?>
-            </h2>
-
             <table>
                 <thead>
+                    <th>ID</th>
+                    <th>State</th>
                     <th>Name</th>
                     <th>Description</th>
                     <th>Link</th>
@@ -65,41 +63,6 @@
                     <?= $activityListElements; ?>
                 </tbody>
             </table>
-
-            <div class="addDiv">
-                <a href="info.php?state=<?= $state; ?>&reset=true" class="openPopup-link"><p id="openPopup">+Add an Activity</p></a>
-            </div>
-            
-            <div id="popup" <?php if($infoList == "" && $errors == ['name' => "", 'link' => ""]) {echo 'class="hidden"';}?>>
-                <form method="post">
-                    <p id="corner">X</p>
-                    <div class="d-flex justify-content-between"><p><span class="error">*</span>Name:</p><input name="actname" type="text" placeholder="Activity Name" value="<?= $name;?>"></div>
-                    <span class="error"><?= $errors['name'];?></span>
-                    <div><textarea name="desc" placeholder="Activity Description" rows="4" cols="50"><?= $desc;?></textarea></div>
-                    <div class="d-flex justify-content-between"><p>Link:</p> <input name="link" type="text" placeholder="Activity Link" value="<?= $link;?>"></div>
-                    <span class="error"><?= $errors['link'];?></span>
-                    <div class="d-flex justify-content-between"><p>Price:</p> <input name="price" inputmode="decimal" type="number" min="0" step=".01" placeholder="$10.00" value="<?= $price;?>"></div>
-                    <div class="d-flex justify-content-between"><p>Route:</p> <input name="route" type="text" placeholder="Activity Route" value="<?= $route;?>"></div>
-                    <div class="d-flex justify-content-between">
-                        <p>Priority:</p>
-                        <select name="priority">
-                            <option value="None" <?php if($priority == "None") {echo "selected";}?>>None</option>
-                            <option value="Low" <?php if($priority == "Low") {echo "selected";}?>>Low</option>
-                            <option value="Medium" <?php if($priority == "Medium") {echo "selected";}?>>Medium</option>
-                            <option value="High" <?php if($priority == "High") {echo "selected";}?>>High</option>
-                        </select>
-                    </div>
-                    <div><textarea name="notes" placeholder="Notes" rows="4" cols="50"><?= $notes;?></textarea></div>
-                    <?php if($infoList == "" || $infoList == []): ?>
-                        <div><input type="submit" name="submit" value="Submit" class="button"></div>
-                    <?php else: ?>
-                        <div style="display: flex;">
-                            <div><input type="submit" name="update" value="Update" class="button"></div>
-                            <div><input type="submit" name="delete" value="Delete" class="button"></div>
-                        </div>
-                    <?php endif; ?>
-                </form>
-            </div>
         </main>
 
         <footer style="height: 4em;" class="d-flex justify-content-between align-items-center">

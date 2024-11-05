@@ -11,8 +11,8 @@ if (isset($_GET["state"])) {
 }
 
 $errors = [
-    'name' => "", 
-    'link' => ""
+    'name' => "",
+    'link' => "" 
 ];
 
 $name = "";
@@ -45,10 +45,10 @@ function removeqsvar($url, $varname) {
 if (isset($_POST['submit'])) 
 {
     if ($_POST["actname"] == "") {
-        $errors["name"] = "A name is required for each activity.";
+        $errors["name"] = "*A name is required for each activity.";
     }
     if (isset($_POST["link"]) && $_POST["link"] == "") {
-        $errors["link"] = "A link is required for each activity.";
+        $link = "#";
     }
 
     if ($errors == ['name' => "", 'link' => ""]) {
@@ -80,7 +80,7 @@ if (isset($_POST["update"])) {
         $errors["name"] = "*A name is required for each activity.";
     }
     if (isset($_POST["link"]) && $_POST["link"] == "") {
-        $errors["link"] = "*A link is required for each activity.";
+        $link = "#";
     }
 
     if ($errors == ['name' => "", 'link' => ""]) {
