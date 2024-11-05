@@ -49,7 +49,7 @@
         
 
     <main style="height: 100vh;">
-        <h2 style="text-align: center; margin: 20px;">Click on a State!</h2>
+        <h2 style="text-align: center; margin: 20px;">Click on a state to view activities!</h2>
         <div id="details-box"></div>
         <div class="svg-wrapper">
             <svg
