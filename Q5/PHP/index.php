@@ -13,6 +13,11 @@
 
     <div class="link-wrapper">
         <div class="link-group">
+            <h2>Side Projects</h2>
+            <a class="button" href="Fun/">50 States Adventure</a>
+        </div>
+
+        <div class="link-group">
             <h2>Week 1</h2>
             <a class="button" href="Week1/MiniTaskC">MiniTaskC</a>
             <a class="button" href="Week1/MiniTaskD">MiniTaskD</a>
@@ -40,6 +45,11 @@
             <h2>Week 5</h2>
             <a class="button" href="Week5/sql_demo">Demo</a>
             <a class="button" href="Week5/patients">SQL Patient Intake - Continued</a>
+        </div>
+
+        <div class="link-group">
+            <h2>Week 6</h2>
+            <a class="button" href="Week6/patients">SQL Patient Intake - Search Functions</a>
         </div>
     </div>
 </body>

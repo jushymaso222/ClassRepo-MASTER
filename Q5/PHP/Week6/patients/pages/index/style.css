@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+body, html {
+    margin: 0;
+    font-family: "Exo 2", sans-serif;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+    font-weight: 600;
+    background-color: #f4f4f4;
+    font-size: 20pt;
+    color: #25ced1;
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+    /* border-bottom: 5px solid #ff8a5b; */
+}
+
+header h1 {
+    margin: 0; 
+    padding: 0;
+}
+
+body {
+    background-color: rgb(77, 77, 77);
+    flex: 1; 
+    display: flex; 
+    flex-direction: column;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #BBBBBB; 
+}
+ 
+tbody tr:nth-child(even) {
+    background-color: #888888;
+}
+
+thead {
+    height: 3em;
+    border-bottom: 2px solid #ff8a5b;
+}
+
+thead {
+    background-color: #888888;
+}
+
+tr {
+    height: 2em;
+    border-bottom: 1px solid black;
+    
+}
+
+td, th {
+    border-right: 1px solid black;
+    text-align: center;
+}
+
+th {
+    color: #25ced1;
+}
+
+td {
+    color: white;
+}
+
+.addNew {
+    font-size: 14pt;
+    min-height: 3em;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.addNewButton {
+    color: white;
+    text-decoration: none;
+}
+
+.addNewButton:hover {
+    cursor: pointer;
+    color: rgb(181, 181, 181);
+}
+
+.editLink {
+    text-decoration: none;
+    color: #87fbfd;
+}
+
+.editLink:hover {
+    color: #2cbec1;
+}
