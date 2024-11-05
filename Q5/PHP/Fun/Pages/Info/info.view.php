@@ -6,7 +6,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <style><?php include("style.css"); ?></style>
     <script src="https://kit.fontawesome.com/de1ce5e4ae.js" crossorigin="anonymous"></script>
-    <title>Home Page</title>
+    <link rel="icon" href="../../States/Rhode Island.svg">
+    <title><?= $state; ?> - Activities</title>
 </head>
 <body>
     <div class="wrapper container-fluid w-100">
