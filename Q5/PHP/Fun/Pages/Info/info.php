@@ -145,7 +145,11 @@ if ($activityList) {
         $htmlElement .= "<td>".$activity["description"]."</td>";
         $htmlElement .= '<td> <a href="'.$activity["link"].'" target="_blank" class="table-link">'.$activity["name"].'</a></td>';
         $htmlElement .= "<td>$".$activity["price"]."</td>";
-        $htmlElement .= "<td>".$activity["route"]."</td>";
+        if ($activity["route"] != "" && $activity["route"] != NULL) {
+            $htmlElement .= '<td> <a href="'.$activity["route"].'" class="table-link" target="_blank">Map</a> </td>';
+        } else {
+            $htmlElement .= "<td>".$activity["route"]."</td>";
+        }
         $htmlElement .= "<td>".$activity["priority"]."</td>";
         $htmlElement .= "<td>".$activity["notes"]."</td>";
         $htmlElement .= '<td> <a href="info.php?state='.$state.'&id='.$activity["id"].'" class="table-link">Edit</a> </td>';
