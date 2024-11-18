@@ -207,6 +207,17 @@ td {
     border-radius: 30px;
 }
 
+.sign-in {
+    color: white;
+    text-decoration: none;
+}
+
+.sign-in:hover {
+    color: rgb(101, 184, 235);
+    text-decoration: none;
+    cursor: pointer;
+}
+
 #openPopup:hover {
     cursor: pointer;
     color: rgb(73, 222, 232);

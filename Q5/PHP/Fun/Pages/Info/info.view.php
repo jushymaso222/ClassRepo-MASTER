@@ -40,6 +40,7 @@
                             <button type="button" class="btn btn-primary" id="search-button">
                                 <i class="fas fa-search"></i>
                             </button>
+                            <a href="../Login/login.php"  class="sign-in"><h3 style="font-size: 19pt; align-items: center; margin-left: 40px;">Sign-In</h3></a>
                         </div>
                     </div>
                 </div>

@@ -12,7 +12,7 @@
 <body>
     <header style="height: 200px;" class="d-flex justify-content-center align-items-center">
         <h1>50 States Adventure</h1>
-    </header>
+        </header>
     <nav style="height: 5em;">
         <div class="container-fluid">
             <div class="row">
@@ -39,6 +39,7 @@
                         <button type="button" class="btn btn-primary" id="search-button">
                             <i class="fas fa-search"></i>
                         </button>
+                        <a href="Pages/Login/login.php" class="sign-in"><h2 style="font-size: 19pt; align-items: center; margin-left: 40px;">Sign-In</h2></a>
                     </div>
                 </div>
             </div>

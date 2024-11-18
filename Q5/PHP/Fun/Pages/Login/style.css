@@ -1,0 +1,135 @@
+/* Ensure the page takes up the full viewport height */
+body, html {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    display: flex;
+    height: 1000px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+/* Other existing styles */
+.container-fluid {
+    padding: 0;
+}
+
+.custom-link {
+    color: white;
+    text-decoration: none;
+    font-size: 15pt;
+}
+
+.custom-link:hover {
+    color: rgb(101, 184, 235);
+    text-decoration: none;
+}
+
+.sign-in {
+    color: white;
+    text-decoration: none;
+}
+
+.sign-in:hover {
+    color: rgb(101, 184, 235);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header {
+    color: white;
+    background-color: rgb(125, 175, 183);
+    display: flex;
+}
+
+nav {
+    height: 4em;
+    background-color: rgb(84, 107, 134);
+    border-bottom: 3px solid rgb(101, 184, 235);
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+footer {
+    color: white;
+    background-color: rgb(84, 107, 134);
+    height: 1.5em;
+    border-top: 3px solid rgb(101, 184, 235);
+}
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; /* Space between inputs and links */
+    position: relative; /* Necessary for positioning the links */
+    width: 20em;
+    padding: 30px;
+    background-color: gray;
+    font-size: 18pt;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    height: 10em; /* Adjusts based on content */
+    min-height: 300px; /* Ensures the form-box has a minimum height */
+}
+
+.form-input {
+    margin-bottom: 20px; /* Space between input fields */
+    width: 100%; /* Ensure inputs take full width of form */
+}
+
+.form-input > input {
+    width: 100%; /* Full width of the form box */
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 16pt;
+}
+
+.submit-button {
+    padding: 10px;
+    width: 100%; /* Make button full width */
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(84, 107, 134);
+    color: white;
+    font-size: 16pt;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: rgb(101, 184, 235); /* Hover effect */
+    color: white;
+}
+
+/* Links styles */
+.form-links {
+    position: absolute; /* Position links at the bottom */
+    bottom: 20px; /* Space from the bottom of the form box */
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* Position links at both corners */
+    font-size: 12pt;
+}
+
+.form-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.form-links a:hover {
+    color: rgb(101, 184, 235);
+}
