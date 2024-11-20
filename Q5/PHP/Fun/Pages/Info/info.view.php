@@ -35,7 +35,7 @@
                     <div class="col text-center">
                         <div class="input-group justify-content-center">
                             <div class="form-outline">
-                                <input type="search" id="form-search" class="form-control" placeholder="Search" style="width: 400px;"/>
+                                <input type="search" id="form-search" class="form-control" placeholder="Search" style="width: 200px;"/>
                             </div>
                             <button type="button" class="btn btn-primary" id="search-button">
                                 <i class="fas fa-search"></i>

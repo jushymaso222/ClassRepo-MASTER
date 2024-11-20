@@ -35,7 +35,7 @@
                     <div class="col text-center">
                         <div class="input-group justify-content-center">
                             <div class="form-outline">
-                                <input type="search" id="form-search" class="form-control" placeholder="Search" style="width: 400px;"/>
+                                <input type="search" id="form-search" class="form-control" placeholder="Search" style="width: 200px;"/>
                             </div>
                             <button type="button" class="btn btn-primary" id="search-button">
                                 <i class="fas fa-search"></i>
@@ -59,14 +59,18 @@
                         <div class="form-input">
                             <input type="text" placeholder="Username" name="username">
                         </div>
+                        <?php if ($userError) {echo '<span class="error">*You must enter a username<span>';} ?>
                         <?php if(isset($_GET["action"]) && $_GET["action"] == "create"): ?>
                         <div class="form-input">
                             <input type="text" placeholder="Email" name="email">
                         </div>
+                        <?php if ($emailError) {echo '<span class="error">*You must enter an email<span>';} ?>
                         <?php endif; ?>
                         <div class="form-input">
                             <input type="password" placeholder="Password" name="password">
                         </div>
+                        <?php if ($passError) {echo '<span class="error">*You must enter a password<span>';} ?>
+                        
                         <?php if(isset($_GET["action"]) && $_GET["action"] == "create"): ?>
                             <button name="create" type="submit" class="submit-button">Create Account</button>
                         <?php else: ?>

@@ -17,7 +17,12 @@ main {
     text-align: center;
 }
 
-
+.error {
+    color: red;
+    font-size: 10pt;
+    margin: 0;
+    padding: 0;
+}
 
 /* Other existing styles */
 .container-fluid {
@@ -81,7 +86,7 @@ footer {
     margin-top: 50px;
     border-radius: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
-    height: 10em; /* Adjusts based on content */
+    height: 15em; /* Adjusts based on content */
     min-height: 300px; /* Ensures the form-box has a minimum height */
 }
 
