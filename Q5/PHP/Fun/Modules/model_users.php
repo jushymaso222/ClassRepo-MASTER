@@ -2,33 +2,43 @@
 
 require ("db.php");
 
-function getPatients() {
+function login($username, $pass) {
     global $db;
     $results = [];
 
-    $stmt = $db->prepare("SELECT * FROM patients");
-    $stmt->execute();
-    if($stmt->execute() && $stmt->rowCount() > 0) {
+    $sql = "SELECT * FROM users WHERE username = :u";
+    $stmt = $db->prepare($sql);
+    $binds = array(
+        ':u'=> $username,
+    );
+    
+    if($stmt->execute($binds) && $stmt->rowCount() > 0) {
         $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+        if($results[0]["password"] == $pass) {
+            return $results;
+        } else {
+            return false;
+        }
     } 
-    return $results;
+
+    return false;
 }
 
-function addPatient($firstName, $lastName, $maritalStatus, $dateOfBirth) {
+function createUser($username, $pass, $email) {
     global $db;
 
-    $sql = 'INSERT INTO patients (patientFirstName, patientLastName, patientMarried, patientBirthDate) VALUES (:f, :l, :m, :d)';
+    $sql = 'INSERT INTO users (username, password, email) VALUES (:u, :p, :e)';
     $results = [];
     $stmt = $db->prepare($sql);
     $binds = array(
-        ':f'=> $firstName,
-        ':l'=> $lastName,
-        ':m'=> $maritalStatus,
-        ':d'=> $dateOfBirth
+        ':u'=> $username,
+        ':p'=> $pass,
+        ':e'=> $email,
     );
     
     if ($stmt->execute($binds) && $stmt->rowCount() > 0) {
-        $results = "Patient Added";
+        $results = "User Added";
     }
 
     return $results;

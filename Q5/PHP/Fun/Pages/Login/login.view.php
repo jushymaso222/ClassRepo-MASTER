@@ -57,19 +57,16 @@
                         <button name="forgot" type="submit" class="submit-button">Recover Account</button>
                     <?php else: ?>
                         <div class="form-input">
-                            <input type="text" placeholder="Username" name="username">
+                            <input type="text" placeholder="Username" name="username" <?php if ($emailError) {echo 'style="border: 2px solid red;"';} ?>>
                         </div>
-                        <?php if ($userError) {echo '<span class="error">*You must enter a username<span>';} ?>
                         <?php if(isset($_GET["action"]) && $_GET["action"] == "create"): ?>
                         <div class="form-input">
-                            <input type="text" placeholder="Email" name="email">
+                            <input type="text" placeholder="Email" name="email" <?php if ($emailError) {echo 'style="border: 2px solid red;"';} ?>>
                         </div>
-                        <?php if ($emailError) {echo '<span class="error">*You must enter an email<span>';} ?>
                         <?php endif; ?>
                         <div class="form-input">
-                            <input type="password" placeholder="Password" name="password">
+                            <input type="password" placeholder="Password" name="password" <?php if ($emailError) {echo 'style="border: 2px solid red;"';} ?>>
                         </div>
-                        <?php if ($passError) {echo '<span class="error">*You must enter a password<span>';} ?>
                         
                         <?php if(isset($_GET["action"]) && $_GET["action"] == "create"): ?>
                             <button name="create" type="submit" class="submit-button">Create Account</button>
