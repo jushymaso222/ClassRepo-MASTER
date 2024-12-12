@@ -18,22 +18,19 @@ function getActivities($state, $username) {
     return $results;
 }
 
-function searchActivities($searchTerm, $username = "") {
+function searchActivities($searchTerm) {
     global $db;
     $results = [];
 
-    if ($username != "" && $username != NIL) {
-        $stmt = $db->prepare("SELECT * FROM activities WHERE username = :u AND state LIKE :s OR name LIKE :n");
-        $binds = array(
-            ":s"=> '%' . $searchTerm . '%',
-            ":n"=> '%' . $searchTerm . '%',
-            ":u" => $username
-        );
+    $stmt = $db->prepare("SELECT * FROM activities WHERE state LIKE :s OR name LIKE :n");
+    $binds = array(
+        ":s"=> '%' . $searchTerm . '%',
+        ":n"=> '%' . $searchTerm . '%',
+    );
 
-        if($stmt->execute($binds) && $stmt->rowCount() > 0) {
-            $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
-        } 
-    }
+    if($stmt->execute($binds) && $stmt->rowCount() > 0) {
+        $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
+    } 
     return $results;
 }
 
