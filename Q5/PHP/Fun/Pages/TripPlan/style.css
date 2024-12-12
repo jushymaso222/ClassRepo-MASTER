@@ -73,4 +73,34 @@ h2 {
     align-items: center;
     justify-content: center;
 }
-    
+
+.row {
+    display: flex;
+    align-items: center; /* Align all columns vertically */
+    height: 100%; /* Match nav height */
+}
+
+/* Ensure columns align their content horizontally */
+.col {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;    /* Center vertically */
+    height: 100%;           /* Ensure uniform height */
+}
+
+/* Input group adjustments */
+.input-group {
+    display: flex;
+    align-items: center;
+}
+
+/* Remove unnecessary margins */
+#form-search, #search-button {
+    margin: 0;
+    padding: 5px; /* Optional: Improve visual spacing */
+}
+
+/* Links */
+a.custom-link {
+    font-size: 15pt; /* Adjust font size */
+}

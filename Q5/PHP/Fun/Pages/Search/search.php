@@ -1,6 +1,7 @@
 <?php
 
 include("../../Modules/model_activities.php");
+session_start();
 
 $activityList = "";
 
@@ -8,7 +9,9 @@ if (isset($_GET["search"])) {
     $search = $_GET["search"];
 }
 
-$activityList = searchActivities($search);
+if(isset($_SESSION["user"]) && $_SESSION["user"] != "") {
+    $activityList = searchActivities($search, $_SESSION["user"][0]["username"]);
+}
 
 if ($activityList) {
     $activityListElements = "";

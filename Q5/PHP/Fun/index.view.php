@@ -13,38 +13,46 @@
     <header style="height: 200px;" class="d-flex justify-content-center align-items-center">
         <h1>50 States Adventure</h1>
         </header>
-    <nav style="height: 5em;">
-        <div class="container-fluid">
-            <div class="row">
-                <!-- Column 1: Home link -->
-                <div class="col text-center">
-                    <a class="custom-link" href="#">
-                        <i class="fa-solid fa-house"></i> Home
-                    </a>
-                </div>
+        <nav style="height: 5em;">
+            <div class="container-fluid">
+                <div class="row h-100 d-flex align-items-center">
+                    <!-- Column 1: Home link -->
+                    <div class="col text-center">
+                        <a class="custom-link" href="index.php">
+                            <i class="fa-solid fa-house"></i> Home
+                        </a>
+                    </div>
 
-                <!-- Column 2: Info link -->
-                <div class="col text-center">
-                    <a class="custom-link" href="Pages/TripPlan/tripplan.php">
-                        Info
-                    </a>
-                </div>
+                    <!-- Column 2: Info link -->
+                    <div class="col text-center">
+                        <a class="custom-link" href="Pages/TripPlan/tripplan.php">Info</a>
+                    </div>
 
-                <!-- Column 3: Search bar -->
-                <div class="col text-center">
-                    <div class="input-group justify-content-center">
-                        <div class="form-outline">
-                            <input type="search" id="form-search" class="form-control" placeholder="Search" style="width: 200px;"/>
+                    <!-- Column 3: Search bar -->
+                    <div class="col text-center">
+                        <div class="input-group justify-content-center">
+                            <div class="form-outline">
+                                <input type="search" id="form-search" class="form-control" placeholder="Search" style="width: 200px;" />
+                            </div>
+                            <button type="button" class="btn btn-primary" id="search-button">
+                                <i class="fas fa-search"></i>
+                            </button>
+                            <?php if (isset($_SESSION["user"]) && $_SESSION["user"] != "" && $_SESSION["user"][0]["username"] == "admin") : ?>
+                                <a href="Pages/Admin/admin.php" class="sign-in">
+                                    <h2 style="font-size: 19pt; margin-left: 40px;">Admin</h2>
+                                </a>
+                            <?php else : ?>
+                                <a href="Pages/Login/login.php" class="sign-in">
+                                    <h2 style="font-size: 19pt; margin-left: 40px;">
+                                        <?php echo isset($_SESSION["user"]) && $_SESSION["user"] != "" ? $_SESSION["user"][0]["username"] : "Sign-In"; ?>
+                                    </h2>
+                                </a>
+                            <?php endif; ?>
                         </div>
-                        <button type="button" class="btn btn-primary" id="search-button">
-                            <i class="fas fa-search"></i>
-                        </button>
-                        <a href="Pages/Login/login.php" class="sign-in"><h2 style="font-size: 19pt; align-items: center; margin-left: 40px;">Sign-In</h2></a>
                     </div>
                 </div>
             </div>
-        </div>
-    </nav>
+        </nav>
 
 
         

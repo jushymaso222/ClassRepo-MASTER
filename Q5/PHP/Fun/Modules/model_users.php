@@ -27,31 +27,39 @@ function login($username, $pass) {
 
 function createUser($username, $pass, $email) {
     global $db;
-
-    $sql = 'INSERT INTO users (username, password, email) VALUES (:u, :p, :e)';
+    $userCheck = checkUsername($username);
+    $emailCheck = checkEmail($email);
     $results = [];
-    $stmt = $db->prepare($sql);
-    $binds = array(
-        ':u'=> $username,
-        ':p'=> $pass,
-        ':e'=> $email,
-    );
-    
-    if ($stmt->execute($binds) && $stmt->rowCount() > 0) {
-        $results = "User Added";
-    }
 
+    if($userCheck == false && $emailCheck == false) {
+        $sql = 'INSERT INTO users (username, password, email) VALUES (:u, :p, :e)';
+        $stmt = $db->prepare($sql);
+        $binds = array(
+            ':u'=> $username,
+            ':p'=> $pass,
+            ':e'=> $email,
+        );
+        
+        if ($stmt->execute($binds) && $stmt->rowCount() > 0) {
+            $results = "User Added";
+        }
+    } elseif($userCheck != false) {
+        $results = "badUser";
+    } elseif($emailCheck != false) {
+        $results = "badEmail";
+    }
+    
     return $results;
 }
 
-function getPatient($id) {
+function checkUsername($username) {
     global $db;
 
-    $sql = "SELECT * FROM patients WHERE id = :id";
-    $results = [];
+    $sql = "SELECT username FROM users WHERE username = :u";
+    $results = false;
     $stmt = $db->prepare($sql);
     $binds = array(
-        ":id"=> $id
+        ":u"=> $username
     );
 
     if ($stmt->execute($binds) && $stmt->rowCount() > 0) {
@@ -61,31 +69,74 @@ function getPatient($id) {
     return $results;
 }
 
-function updatePatient($id, $firstName, $lastName, $maritalStatus, $dateOfBirth) {
+function checkEmail($email) {
     global $db;
 
-    $sql = "UPDATE patients SET patientFirstName = :f, patientLastName = :l, patientMarried = :m, patientBirthDate = :d WHERE id = :id";
-    $results = [];
+    $sql = "SELECT email FROM users WHERE email = :e";
+    $results = false;
     $stmt = $db->prepare($sql);
     $binds = array(
-        ":id"=> $id,
-        ":f"=> $firstName,
-        ":l"=> $lastName,
-        ":m"=> $maritalStatus,
-        ":d"=> $dateOfBirth
+        ":e"=> $email
     );
 
     if ($stmt->execute($binds) && $stmt->rowCount() > 0) {
-        $results = "Updated Patient";
+        $results = $stmt->fetch(PDO::FETCH_ASSOC);
     }
 
     return $results;
 }
 
-function deletePatient($id) {
+function getUsers() {
+    global $db;
+    $results = [];
+
+    $stmt = $db->prepare("SELECT * FROM users");
+
+    if($stmt->execute() && $stmt->rowCount() > 0) {
+        $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
+    } 
+    return $results;
+}
+
+function getUser($id) {
+    global $db;
+    $results = [];
+
+    $stmt = $db->prepare("SELECT * FROM users WHERE id = :id");
+    $binds = array(
+        ":id" => $id
+    );
+
+    if($stmt->execute($binds) && $stmt->rowCount() > 0) {
+        $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
+    } 
+    return $results;
+}
+
+function updateUser($id, $username, $email, $password) {
     global $db;
 
-    $sql = "DELETE FROM patients WHERE id = :id";
+    $sql = "UPDATE users SET username = :u, email = :e, password = :p WHERE id = :id";
+    $results = [];
+    $stmt = $db->prepare($sql);
+    $binds = array(
+        ":id"=> $id,
+        ":u" => $username,
+        ":e" => $email,
+        ":p" => $password
+    );
+
+    if ($stmt->execute($binds) && $stmt->rowCount() > 0) {
+        $results = "Updated user";
+    }
+
+    return $results;
+}
+
+function deleteUser($id) {
+    global $db;
+
+    $sql = "DELETE FROM users WHERE id = :id";
     $results = [];
 
     $stmt = $db->prepare($sql);
@@ -94,7 +145,7 @@ function deletePatient($id) {
     );
 
     if ($stmt->execute($binds) && $stmt->rowCount() > 0) {
-        $results = "Deleted Patient";
+        $results = "Deleted User";
     }
 
     return $results;

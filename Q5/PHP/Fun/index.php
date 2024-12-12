@@ -3,6 +3,7 @@
 //Page Switcher
 include("modules/pages.php");
 $account = [];
+session_start();
 
 
 

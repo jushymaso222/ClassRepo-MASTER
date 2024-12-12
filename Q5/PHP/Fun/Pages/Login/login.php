@@ -1,14 +1,21 @@
 <?php
 
 include("../../Modules/model_users.php");
+session_start();
 
 if(isset($_GET["action"])) {
     $action = $_GET["action"];
 }
 
+if(isset($_SESSION["user"])) {
+    unset($_SESSION["user"]);
+}
+
 $userError = false;
 $emailError = false;
 $passError = false;
+$emailTaken = false;
+$userTaken = false;
 
 if(isset($_POST["signin"])) {
     if(!isset($_POST["username"]) || $_POST["username"] == "") {
@@ -31,7 +38,8 @@ if(isset($_POST["signin"])) {
         $result = login($_POST["username"], $_POST["password"]);
 
         if ($result != false) {
-            header("Location: ../../index.php?action=signin");
+            header("Location: ../../index.php");
+            $_SESSION["user"] = $result;
         }
     }
 }
@@ -60,7 +68,11 @@ if(isset($_POST["create"])) {
     if (!$passError && !$userError && !$emailError) {
         $result = createUser($_POST["username"], $_POST["password"],$_POST["email"]);
 
-        if ($result != false) {
+        if($result == "badUser") {
+            $userTaken = true;
+        } elseif($result == "badEmail") {
+            $emailTaken = true;
+        } elseif ($result != false) {
             header("Location: login.php?action=signin");
         }
     }

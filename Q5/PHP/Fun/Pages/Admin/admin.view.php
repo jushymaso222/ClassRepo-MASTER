@@ -56,64 +56,42 @@
         </nav>
 
         <main style="height: 100vh;">
-            <?php if(isset($_SESSION["user"]) && $_SESSION["user"] != ""): ?>
-                <h2>
-                    <?= $state; ?>
-                </h2>
+            <form method="post" class="center-text">
+                <button name="logout" type="submit" style="margin-top: 40px;">logout</button>
+            </form>
 
-                <table>
-                    <thead>
-                        <th>Name</th>
-                        <th>Description</th>
-                        <th>Link</th>
-                        <th>Price</th>
-                        <th>Route</th>
-                        <th>Priority</th>
-                        <th>Notes</th>
-                        <th>Admin</th>
-                    </thead>
-                    <tbody>
-                        <?= $activityListElements; ?>
-                    </tbody>
-                </table>
+            <h2>
+                Users
+            </h2>
 
-                <div class="addDiv">
-                    <a href="info.php?state=<?= $state; ?>&reset=true" class="openPopup-link"><p id="openPopup">+Add an Activity</p></a>
-                </div>
-                
-                <div id="popup" <?php if($infoList == "" && $errors == ['name' => "", 'link' => ""]) {echo 'class="hidden"';}?>>
-                    <form method="post">
-                        <p id="corner">X</p>
-                        <div class="d-flex justify-content-between"><p><span class="error">*</span>Name:</p><input name="actname" type="text" placeholder="Activity Name" value="<?= $name;?>"></div>
-                        <span class="error"><?= $errors['name'];?></span>
-                        <div><textarea name="desc" placeholder="Activity Description" rows="4" cols="50"><?= $desc;?></textarea></div>
-                        <div class="d-flex justify-content-between"><p>Link:</p> <input name="link" type="text" placeholder="Activity Link" value="<?= $link;?>"></div>
-                        <span class="error"><?= $errors['link'];?></span>
-                        <div class="d-flex justify-content-between"><p>Price:</p> <input name="price" inputmode="decimal" type="number" min="0" step=".01" placeholder="$10.00" value="<?= $price;?>"></div>
-                        <div class="d-flex justify-content-between"><p>Route:</p> <input name="route" type="text" placeholder="Activity Route" value="<?= $route;?>"></div>
-                        <div class="d-flex justify-content-between">
-                            <p>Priority:</p>
-                            <select name="priority">
-                                <option value="None" <?php if($priority == "None") {echo "selected";}?>>None</option>
-                                <option value="Low" <?php if($priority == "Low") {echo "selected";}?>>Low</option>
-                                <option value="Medium" <?php if($priority == "Medium") {echo "selected";}?>>Medium</option>
-                                <option value="High" <?php if($priority == "High") {echo "selected";}?>>High</option>
-                            </select>
-                        </div>
-                        <div><textarea name="notes" placeholder="Notes" rows="4" cols="50"><?= $notes;?></textarea></div>
-                        <?php if($infoList == "" || $infoList == []): ?>
-                            <div><input type="submit" name="submit" value="Submit" class="button"></div>
-                        <?php else: ?>
-                            <div style="display: flex;">
-                                <div><input type="submit" name="update" value="Update" class="button"></div>
-                                <div><input type="submit" name="delete" value="Delete" class="button"></div>
-                            </div>
-                        <?php endif; ?>
-                    </form>
-                </div>
-            <?php else: ?>
-                <h2>Please sign-in to add activities!</h2>
-            <?php endif; ?>
+            <table>
+                <thead>
+                    <th>ID</th>
+                    <th>Username</th>
+                    <th>Email</th>
+                    <th>Pasword</th>
+                    <th>Edit</th>
+                </thead>
+                <tbody>
+                    <?= $usersElements; ?>
+                </tbody>
+            </table>
+
+            <div id="popup" <?php if(!isset($_GET["userId"])) {echo 'class="hidden"';}?>>
+                <form method="post">
+                    <p id="corner">X</p>
+                    <div class="d-flex justify-content-between"><p><span class="error">*</span>Username:</p><input name="username" type="text" placeholder="Username" value="<?= $username;?>"></div>
+                    <div class="d-flex justify-content-between"><p><span class="error">*</span>Email:</p><input name="email" type="text" placeholder="Email" value="<?= $email;?>"></div>
+                    <div class="d-flex justify-content-between"><p><span class="error">*</span>Password:</p><input name="password" type="text" placeholder="Password" value="<?= $password;?>"></div>
+
+                    <?php if($username != "admin"): ?>
+                    <div style="display: flex;">
+                        <div><input type="submit" name="update" value="Update" class="button"></div>
+                        <div><input type="submit" name="delete" value="Delete" class="button"></div>
+                    </div>
+                    <?php endif; ?>
+                </form>
+            </div>
         </main>
 
         <footer style="height: 4em;" class="d-flex justify-content-between align-items-center">

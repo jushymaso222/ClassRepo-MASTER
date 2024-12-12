@@ -7,7 +7,11 @@ include("../../Modules/model_activities.php");
 if (isset($_GET["state"])) {
     $state = $_GET["state"];
 
-    $activityList = getActivities($state);
+    if(isset($_SESSION["user"]) && $_SESSION["user"] != "") {
+        $activityList = getActivities($state, $_SESSION["user"][0]["username"]);
+    } else {
+        $activityList = false;
+    }
 }
 
 $errors = [
@@ -69,7 +73,7 @@ if (isset($_POST['submit']))
         if (isset($_POST["notes"])) {
             $notes = $_POST["notes"];
         }
-        addActivity($state, $name, $desc, $link, $price, $route, $priority, $notes);
+        addActivity($state, $name, $desc, $link, $price, $route, $priority, $notes, $_SESSION["user"][0]["username"]);
         $infoList = "";
         header("Refresh:0");
     }
@@ -101,7 +105,7 @@ if (isset($_POST["update"])) {
         if (isset($_POST["notes"])) {
             $notes = $_POST["notes"];
         }
-        updateActivity($_SESSION["id"],  $name, $desc, $link, $price, $route, $priority, $notes);
+        updateActivity($_SESSION["id"],  $name, $desc, $link, $price, $route, $priority, $notes, $_SESSION["user"][0]["username"]);
         $infoList = "";
         header("Refresh:0");
     }
